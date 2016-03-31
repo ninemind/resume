@@ -1,0 +1,126 @@
+{
+    "basics": {
+        "name": "Christopher West",
+        "label": "Software Developer & Architect",
+        "picture": "",
+        "email": "9ninemind@gmail.com",
+        "phone": "(801) 875-0044",
+        "website": "http://ninemind.net",
+        "summary": "I am a skilled developer commited to code quality and maintainability.  I am well organized, a problem solver and put great pride on my work. I'm always ready to learn new things and believe everything has room for improvement.",
+        "location": {
+            "address": "2140 E Whitekirk Way",
+            "postalCode": "84020",
+            "city": "Draper",
+            "countryCode": "US",
+            "region": "Utah"
+        },
+        "profiles": [{
+            "network": "GitHub",
+            "username": "ninemind",
+            "url": "github.com/ninemind"
+        }]
+    },
+    "work": [
+        {
+            "startDate": "2015-06-26",
+            "company": "RallySport Direct",
+            "website": "http://rallysportdirect.com",
+            "position": "Senior Backend Developer",
+            "summary": "Senior backend developer for both rallysportdirect.com and northridge4x4.com. Architect of new systems and integrations.",
+            "highlights": [
+                "Designed the development, testing, and release flows for entire development department.",
+                "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments, and integration with multiple ERP's.",
+                "Trained our tester on version control and the linux terminal so he could also manage our deploys."
+            ]
+        },
+        {
+            "startDate": "2015-04-01",
+            "endDate": "2015-06-01",
+            "company": "BlackBoxCode",
+            "website": "http://blackboxcode.com",
+            "position": "Lead Developer & Architect",
+            "summary": "Lead developer and co-architect of a large scale CMS.",
+            "highlights": [
+                "Hired as the very first employee of the company and worked directly with the owners.",
+                "Wrote all of the unit tests for the CMS by following the \"test first\" strategy.",
+                "Developed and co-architected a \"one-size-fits-all\" CMS application for enterprise business solutions."
+            ]
+        },
+        {
+            "startDate": "2014-05-12",
+            "endDate": "2015-02-17",
+            "company": "WakeUpNow",
+            "website": "http://wakeupnow.com",
+            "position": "Senior Backend Developer",
+            "summary": "Fixed bugs, wrote new web applications in the Symfony2 framework.",
+            "highlights": [
+                "Co-architected and developed new website complete with order processing, payment processing, management, etc...",
+                "Wrote and maintained unit tests by following the \"test first\" strategy.",
+                "Trained our tester on version control and the linux terminal so she could also manage our deploys.",
+                "Designed the development, testing, and release flows for entire development department.",
+                "Co-developed JSON-RPC api for interfacing with the legacy site as we replaced it's features one by one."
+            ]
+        },
+        {
+            "startDate": "2010-03-26",
+            "endDate": "2014-01-07",
+            "company": "eReplacementParts.com",
+            "website": "http://ereplacementparts.com",
+            "position": "Web & Systems Developer",
+            "summary": "Automated interdepartmental tasks and developed applications for content management.",
+            "highlights": [
+                "Pioneered the automated collection of data from suppliers. This increased data collection productivity by 500%, reduced overhead needs of the Data Entry Department from 7 to 3 full-time positions and eliminated human error.",
+                "Developed a class hierarchy for processing payments through multiple gateways such as Authorize.net and PaymentXP without needing to rewrite code.",
+                "Researched and implemented document capture technology",
+                "Trained employees on web scraping and intelligent document capture."
+            ]
+        }
+    ],
+    "volunteer": [],
+    "education": [],
+    "awards": [{
+        "title": "2nd Place All-State - 3D Animation",
+        "date": "2006-05-02",
+        "awarder": "Granite Technical Institute",
+        "summary": "2nd place award in a 3D animation contest between students throughout Utah."
+    }],
+    "publications": [],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [],
+    "skills": [
+        {
+            "name": "Database",
+            "level": "",
+            "keywords": [
+                "MySQL",
+                "MongoDB",
+                "MSSQL"
+            ]
+        },
+        {
+            "name": "Web Development",
+            "level": "",
+            "keywords": [
+                "PHP",
+                "node.js",
+                "HTML",
+                "Javascript",
+                "CSS"
+            ]
+        },
+        {
+            "name": "Other",
+            "level": "",
+            "keywords": [
+                "Git",
+                "node.js"
+            ]
+        }
+    ],
+    "references": []
+}
