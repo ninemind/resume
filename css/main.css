@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'norwester';
+    src: url('fonts/norwester.otf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 900px;
+}
+
+#header, .section {
+    font-family: 'norwester';
+}
+
+#header {
+    background-color: #24292c;
+    color: #fff;
+    font-size: 64px;
+    padding: 16px 64px;
+}
+
+.section {
+    border-bottom: 2px solid #000;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #333;
+}
