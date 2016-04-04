@@ -36,11 +36,12 @@
         {
             "startDate": "2014-05-26",
             "endDate": "2015-06-01",
-            "company": "Black Box Code (formerly Kal'El Technology)",
+            "company": "Black Box Code",
             "website": "http://blackboxcode.com",
             "position": "Lead Developer & Architect",
             "highlights": [
-                "Hired as the very first employee of the company and worked directly with the owners.",
+                "Hired as the very first employee and worked directly with the owners of the company.",
+                "Developed a compiled class heirarchy that could circumvent limitations of the programming language selected for the project.",
                 "Wrote all of the unit tests for the CMS by following the \"test first\" strategy.",
                 "Developed and co-architected a \"one-size-fits-all\" CMS application for enterprise business solutions."
             ]
@@ -55,8 +56,7 @@
                 "Co-architected and developed new website complete with order processing, payment processing, management, etc...",
                 "Wrote and maintained unit tests by following the \"test first\" strategy.",
                 "Trained our tester on version control and the linux terminal so she could also manage our deploys.",
-                "Designed the development, testing, and release flows for entire development department.",
-                "Co-developed JSON-RPC api for interfacing with the legacy site as we replaced it's features one by one."
+                "Designed the development, testing, and release flows for entire development department."
             ]
         },
         {
@@ -68,7 +68,7 @@
             "highlights": [
                 "Automated interdepartmental tasks to alleviate jobs that could be done by a computer.",
                 "Pioneered the automated collection of data from suppliers. This increased data collection productivity by 500%, reduced overhead needs of the Data Entry Department from 7 to 3 full-time positions and eliminated human error.",
-                "Developed a class hierarchy for processing payments through multiple gateways such as Authorize.net and PaymentXP without needing to rewrite code.",
+                "Cleaned up large portions of the system by introducting OOP to an otherwise spaghetti-code style codebase. This included payment processing via multiple gateways, sales order processing, etc...",
                 "Researched and implemented document capture technology so that invoices from hundreds of vendors could be tracked and logged.",
                 "Trained employees on web scraping and intelligent document capture."
             ]
@@ -130,12 +130,6 @@
             "reference": "It is with great pride that I recommend Christopher West as your next Sr. Software Engineer or Architect. I have had the pleasure of working with Chris on multiple occasions. I can say without hesitation that, the often-frustrating issues related to poor code, missed deadlines or unreliability, are simple eliminated when Chris is around. Chris takes the time to get projects done right and he has spent more than one weekend working on upgrades, maintenance projects and critical releases.</p><p>My association with Chris began approximately 2 years ago while I was serving as CEO of Black Box Code, a software solutions company. Chris and I worked together on many projects giving me authority to say, he is a meticulous planner and puts his whole heart into his tasks. This may seem trivial but having someone on staff that truly loves what they do is the difference between an average employee and a passionate professional, Chris is unquestionably the latter.</p><p>In my interactions with Chris he has always expressed the need to excel and progress. I recommend challenging him; this is where I was able to see the greatest growth in him. He quickly adapted and advanced to drive innovation and proper code practices. Chris’ exceptional personal and professional attitude also makes him a well-suited and fantastic team member. Someone suited to lead when needed and follow when directed.</p><p>Chris is, without a doubt, a quality software engineer and would do great things for your organization."
         },
         {
-            "name": "Casey Coones",
-            "company": "Ebay",
-            "position": "Software Developer",
-            "reference": "I guess he doesn't suck."
-        },
-        {
             "name": "Shandee Whittle",
             "company": "eReplacementParts",
             "position": "Data Ops Manager",
@@ -151,7 +145,13 @@
             "name": "Michael Foreman",
             "company": "eReplacementParts",
             "position": "Director of Web Development",
-            "reference": "I've had the pleasure of working with Christopher West for the past four years.  He was already an excellent employee when, unprompted, he revolutionized our process over a weekend.  Everything we do today is built on his early work.</p><p>When people brought us development projects to be done for their departments, they would specifically request Chris. Everyone knew that having Chris work on it meant it would get done right. He was a great developer to have working on your projects - he asks the right questions, but he also knows when it's up to him to fill in the blanks.</p><p>Good developers are hard to come by, and Christopher West is a great developer. He's smart, easy to work with, reliable, fast, thorough, and he has great initiative. In an environment where we often have to settle for 6's and 7's, he is a 10. I cannot recommend him strongly enough."
+            "reference": "I've had the pleasure of working with Christopher West for the past four years.  He was already an excellent employee when, unprompted, he revolutionized our processes over a weekend.  Everything we do today is built on his early work.</p><p>When people brought us development projects to be done for their departments, they would specifically request Chris. Everyone knew that having Chris work on it meant it would get done right. He was a great developer to have working on your projects - he asks the right questions, but he also knows when it's up to him to fill in the blanks.</p><p>Good developers are hard to come by, and Christopher West is a great developer. He's smart, easy to work with, reliable, fast, thorough, and he has great initiative. In an environment where we often have to settle for 6's and 7's, he is a 10. I cannot recommend him strongly enough."
+        },
+        {
+            "name": "Casey Coones",
+            "company": "Ebay",
+            "position": "Software Developer",
+            "reference": "I guess he doesn't suck."
         }
     ]
 }

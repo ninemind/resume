@@ -3,6 +3,16 @@
     src: url('fonts/norwester.otf');
 }
 
+@media print {
+    a:link:after, a:visited:after {    
+        content: "";    
+    }
+    
+    .page-break {
+        display: block;
+    }
+}
+
 body {
     font-family: 'Conv_Roboto-Regular', sans-serif;
     font-size: 12px;
@@ -79,4 +89,18 @@ h4 {
 
 .highlights {
     margin-bottom: 32px;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+.page-break {
+    display: none;
+    text-align: center;
+    
+    -webkit-column-break-after: always;
+    page-break-after: always;
+    break-after: always;
 }
