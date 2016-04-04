@@ -1,5 +1,13 @@
-<ul>
-    <% _.each(jobs, function(job) { %>
-        <li><%= job.company %></li>
-    <% }); %>
-</ul>
+<% _.each(jobs, function(job) { %>
+    <div class="dates pull-right"><%= _.template.formatDate(job.startDate) %> - <%= _.template.formatDate(job.endDate) %></div>
+    <h4 class="company">
+        <a href="<%= job.website %>"><%= job.company %></a>
+    </h4>
+
+    <div class="position"><%= job.position %></div>
+    <ul>
+        <% _.each(job.highlights, function(highlight) { %>
+            <li><%= highlight %></li>
+        <% }); %>
+    </ul>
+<% }); %>

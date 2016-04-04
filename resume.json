@@ -6,7 +6,7 @@
         "email": "9ninemind@gmail.com",
         "phone": "(801) 875-0044",
         "website": "http://ninemind.net",
-        "summary": "I am a skilled developer commited to code quality and maintainability.  I am well organized, a problem solver and put great pride on my work. I'm always ready to learn new things and believe everything has room for improvement.",
+        "summary": "I am a skilled developer committed to code quality and maintainability.  I am well organized, a problem solver and put great pride on my work. I'm always ready to learn new things and believe everything has room for improvement.",
         "location": {
             "address": "2140 E Whitekirk Way",
             "postalCode": "84020",
@@ -26,20 +26,19 @@
             "company": "RallySport Direct",
             "website": "http://rallysportdirect.com",
             "position": "Senior Backend Developer",
-            "summary": "Senior backend developer for both rallysportdirect.com and northridge4x4.com. Architect of new systems and integrations.",
             "highlights": [
+                "Co-developed both <a href='http://rallysportdirect.com'>rallysportdirect.com</a> and <a href='http://northridge4x4.com'>northridge4x4.com</a>.",
                 "Designed the development, testing, and release flows for entire development department.",
                 "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments, and integration with multiple ERP's.",
                 "Trained our tester on version control and the linux terminal so he could also manage our deploys."
             ]
         },
         {
-            "startDate": "2015-04-01",
+            "startDate": "2014-05-26",
             "endDate": "2015-06-01",
-            "company": "BlackBoxCode",
+            "company": "Black Box Code (formerly Kal'El Technology)",
             "website": "http://blackboxcode.com",
             "position": "Lead Developer & Architect",
-            "summary": "Lead developer and co-architect of a large scale CMS.",
             "highlights": [
                 "Hired as the very first employee of the company and worked directly with the owners.",
                 "Wrote all of the unit tests for the CMS by following the \"test first\" strategy.",
@@ -52,7 +51,6 @@
             "company": "WakeUpNow",
             "website": "http://wakeupnow.com",
             "position": "Senior Backend Developer",
-            "summary": "Fixed bugs, wrote new web applications in the Symfony2 framework.",
             "highlights": [
                 "Co-architected and developed new website complete with order processing, payment processing, management, etc...",
                 "Wrote and maintained unit tests by following the \"test first\" strategy.",
@@ -67,8 +65,8 @@
             "company": "eReplacementParts.com",
             "website": "http://ereplacementparts.com",
             "position": "Web & Systems Developer",
-            "summary": "Automated interdepartmental tasks and developed applications for content management.",
             "highlights": [
+                "Automated interdepartmental tasks to alleviate jobs that could be done by a computer.",
                 "Pioneered the automated collection of data from suppliers. This increased data collection productivity by 500%, reduced overhead needs of the Data Entry Department from 7 to 3 full-time positions and eliminated human error.",
                 "Developed a class hierarchy for processing payments through multiple gateways such as Authorize.net and PaymentXP without needing to rewrite code.",
                 "Researched and implemented document capture technology",
@@ -122,5 +120,20 @@
             ]
         }
     ],
-    "references": []
+    "references": [
+        {
+            "name": "Adam Boswell",
+            "company": "Red Anchor",
+            "position": "CEO",
+            "email": "adam@redanchortech.com",
+            "phone": "(801) 708-5079",
+            "reference": "It is with great pride that I recommend Christopher West as your next Sr. Software Engineer or Architect. I have had the pleasure of working with Chris on multiple occasions. I can say without hesitation that, the often-frustrating issues related to poor code, missed deadlines or unreliability, are simple eliminated when Chris is around. Chris takes the time to get projects done right and he has spent more than one weekend working on upgrades, maintenance projects and critical releases My association with Chris began approximately 2 years ago while I was serving as CEO of Black Box Code, a software solutions company. Chris and I worked together on many projects giving me authority to say, he is a meticulous planner and puts his whole heart into his tasks. This may seem trivial but having someone on staff that truly loves what they do is the difference between an average employee and a passionate professional, Chris is unquestionably the latter In my interactions with Chris he has always expressed the need to excel and progress. I recommend challenging him; this is where I was able to see the greatest growth in him. He quickly adapted and advanced to drive innovation and proper code practices. Chris’ exceptional personal and professional attitude also makes him a well-suited and fantastic team member. Someone suited to lead when needed and follow when directed Chris is, without a doubt, a quality software engineer and would do great things for your organization."
+        },
+        {
+            "name": "Casey Coones",
+            "company": "Ebay",
+            "position": "Java Developer",
+            "reference": "I guess he doesn't suck."
+        }
+    ]
 }

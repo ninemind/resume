@@ -3,28 +3,50 @@
     src: url('fonts/norwester.otf');
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 900px;
+body {
+    font-family: 'Conv_Roboto-Regular', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
 }
 
-#header, .section {
+a {
+    color: #0155ab;
+    text-decoration: none;
+}
+
+header, section h3 {
     font-family: 'norwester';
 }
 
-#header {
+header {
     background-color: #24292c;
     color: #fff;
-    font-size: 64px;
-    padding: 16px 64px;
+    padding: 16px 32px;
 }
 
-.section {
+header h1 {
+    font-size: 64px;
+}
+
+section h3 {
     border-bottom: 2px solid #000;
     text-transform: uppercase;
     font-size: 32px;
     margin-top: 20px;
-    line-height: 1.5;
     color: #333;
+}
+
+h4 {
+    margin: 0;
+}
+
+#references p {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+#references .reference {
+    padding-bottom: 16px;
 }
