@@ -1,10 +1,14 @@
-<% _.each(references, function(reference) { %>
-    <div class="reference">
-        <p>"<%= reference.reference %>"</p>
-        <span>
-            &mdash; <a href="mailto:<%= reference.email %>"><%= reference.name %></a>,
-            <%= reference.position %>
-        </span>
-        <div><%= reference.company %></div>
-    </div>
-<% }); %>
+<ul>
+    <% _.each(references, function(reference) { %>
+        <li>
+            <div class="reference">
+                <p>"<%= reference.reference %>"</p>
+                <span>
+                    &mdash; <a href="mailto:<%= reference.email %>"><%= reference.name %></a>,
+                    <%= reference.position %>
+                </span>
+                <div><%= reference.company %></div>
+            </div>
+        </li>
+    <% }); %>
+</ul>

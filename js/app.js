@@ -1,9 +1,11 @@
 define([
     'jquery',
     'underscore',
+    'text!/templates/header.html',
     'text!/templates/jobs.html',
     'text!/templates/references.html'
-], function($, _, JobTemplate, ReferenceTemplate) {
+], function($, _, HeaderTemplate, JobTemplate, ReferenceTemplate) {
+    var headerTemplate = _.template(HeaderTemplate);
     var jobTemplate = _.template(JobTemplate);
     var referenceTemplate = _.template(ReferenceTemplate);
 
@@ -21,6 +23,10 @@ define([
 
     var initialize = function() {
         $.getJSON('resume.json', function(json) {
+            $('header').html(headerTemplate({
+                basics: json.basics
+            }));
+            
             $('#job-container').html(jobTemplate({
                 jobs: json.work
             }));

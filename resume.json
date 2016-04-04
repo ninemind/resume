@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Christopher West",
-        "label": "Software Developer & Architect",
+        "label": "Software Engineer & Architect",
         "picture": "",
         "email": "9ninemind@gmail.com",
         "phone": "(801) 875-0044",
@@ -62,7 +62,7 @@
         {
             "startDate": "2010-03-26",
             "endDate": "2014-01-07",
-            "company": "eReplacementParts.com",
+            "company": "eReplacementParts",
             "website": "http://ereplacementparts.com",
             "position": "Web & Systems Developer",
             "highlights": [
@@ -127,13 +127,31 @@
             "position": "CEO",
             "email": "adam@redanchortech.com",
             "phone": "(801) 708-5079",
-            "reference": "It is with great pride that I recommend Christopher West as your next Sr. Software Engineer or Architect. I have had the pleasure of working with Chris on multiple occasions. I can say without hesitation that, the often-frustrating issues related to poor code, missed deadlines or unreliability, are simple eliminated when Chris is around. Chris takes the time to get projects done right and he has spent more than one weekend working on upgrades, maintenance projects and critical releases My association with Chris began approximately 2 years ago while I was serving as CEO of Black Box Code, a software solutions company. Chris and I worked together on many projects giving me authority to say, he is a meticulous planner and puts his whole heart into his tasks. This may seem trivial but having someone on staff that truly loves what they do is the difference between an average employee and a passionate professional, Chris is unquestionably the latter In my interactions with Chris he has always expressed the need to excel and progress. I recommend challenging him; this is where I was able to see the greatest growth in him. He quickly adapted and advanced to drive innovation and proper code practices. Chris’ exceptional personal and professional attitude also makes him a well-suited and fantastic team member. Someone suited to lead when needed and follow when directed Chris is, without a doubt, a quality software engineer and would do great things for your organization."
+            "reference": "It is with great pride that I recommend Christopher West as your next Sr. Software Engineer or Architect. I have had the pleasure of working with Chris on multiple occasions. I can say without hesitation that, the often-frustrating issues related to poor code, missed deadlines or unreliability, are simple eliminated when Chris is around. Chris takes the time to get projects done right and he has spent more than one weekend working on upgrades, maintenance projects and critical releases.</p><p>My association with Chris began approximately 2 years ago while I was serving as CEO of Black Box Code, a software solutions company. Chris and I worked together on many projects giving me authority to say, he is a meticulous planner and puts his whole heart into his tasks. This may seem trivial but having someone on staff that truly loves what they do is the difference between an average employee and a passionate professional, Chris is unquestionably the latter.</p><p>In my interactions with Chris he has always expressed the need to excel and progress. I recommend challenging him; this is where I was able to see the greatest growth in him. He quickly adapted and advanced to drive innovation and proper code practices. Chris’ exceptional personal and professional attitude also makes him a well-suited and fantastic team member. Someone suited to lead when needed and follow when directed.</p><p>Chris is, without a doubt, a quality software engineer and would do great things for your organization."
         },
         {
             "name": "Casey Coones",
             "company": "Ebay",
-            "position": "Java Developer",
+            "position": "Software Developer",
             "reference": "I guess he doesn't suck."
+        },
+        {
+            "name": "Shandee Whittle",
+            "company": "eReplacementParts",
+            "position": "Data Ops Manager",
+            "reference": "It is my pleasure to recommend Christopher West, his performance working as part of our development team proved that he will be a valuable addition to any company.</p><p>I have worked with Christopher for more than three years. Early in his employment, Christopher had some ideas for process improvement.  He wrote scripts to collect the data we received from our clients and formatted it for our website.  With these, my department was able to finish the project in about five months.  The project would have taken four times that long without the automation system Christopher developed for that project.  Christopher continued to work for me on various projects, and based on his work, I would rank him as one of the best developers we have ever had.</p><p>Christopher distinguished himself by consistently submitting exceptionally well-designed and well-thought-out programs for tasks in multiple departments throughout our company. Christopher is highly intelligent and has good analytical and communication skills.</p><p>His performance in our company is a good indication of how he would perform in yours, he would be an extremely positive asset to your company."
+        },
+        {
+            "name": "Derek Foreman",
+            "company": "eReplacementParts",
+            "position": "President of Operations",
+            "reference": "Christopher worked at eReplacementParts for four years. He quickly became one of our top PHP developers. During this time, he had a very positive impact on the company.</p><p>Chris worked on a lot of projects for a lot of different people. He excelled at seeing the vsisions of others, and he understood the big picture. He was a favorite around the office because of his ability to bridge the communication gap between himself and non-developers. Because of the nature of what he was working on, the scope of his projects would often change. Sometimes this was due to new imformation; sometimes it was due to changing needs. Chris was able to handle these changes very well and always came up witha  final product that made everyone involved happy.</p><p>Chris takes pride in his work, and when he says a project is finished, he means it. His PHP knowledge is complete and his work ethic is incredible. He rarely misses time, and he is always on task.</p><p>For years, our company went through a lot of developers, trying to put the right team togther. Chris was a part of that winning team. If I were in a position to hire a developer right now, Chris West would be number one on that list."
+        },
+        {
+            "name": "Michael Foreman",
+            "company": "eReplacementParts",
+            "position": "Director of Web Development",
+            "reference": "I've had the pleasure of working with Christopher West for the past four years.  He was already an excellent employee when, unprompted, he revolutionized our process over a weekend.  Everything we do today is built on his early work.</p><p>When people brought us development projects to be done for their departments, they would specifically request Chris. Everyone knew that having Chris work on it meant it would get done right. He was a great developer to have working on your porjects - he asks the right questions, but he also knows when it's up to him to fill in the blanks.</p><p>Good developers are hard to come by, and Christopher West is a great developer. He's smart, easy to work with, reliable, fast, thorough, and he has great initiative. In an enviroment where we often have to settle for 6's and 7's, he is a 10. I cannot recommend him strongly enough."
         }
     ]
 }
