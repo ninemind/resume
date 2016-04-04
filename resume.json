@@ -68,7 +68,7 @@
             "highlights": [
                 "Automated interdepartmental tasks to alleviate jobs that could be done by a computer.",
                 "Pioneered the automated collection of data from suppliers. This increased data collection productivity by 500%, reduced overhead needs of the Data Entry Department from 7 to 3 full-time positions and eliminated human error.",
-                "Cleaned up large portions of the system by introducting OOP to an otherwise spaghetti-code style codebase. This included payment processing via multiple gateways, sales order processing, etc...",
+                "Cleaned up large portions of the system by introducing OOP to an otherwise spaghetti-code style codebase. This included payment processing via multiple gateways, sales order processing, etc...",
                 "Researched and implemented document capture technology so that invoices from hundreds of vendors could be tracked and logged.",
                 "Trained employees on web scraping and intelligent document capture."
             ]
