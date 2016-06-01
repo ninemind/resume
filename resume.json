@@ -15,9 +15,9 @@
             "region": "Utah"
         },
         "profiles": [{
-            "network": "GitHub",
+            "network": "github",
             "username": "ninemind",
-            "url": "github.com/ninemind"
+            "url": "http://github.com/ninemind"
         }]
     },
     "work": [
@@ -27,7 +27,7 @@
             "website": "http://rallysportdirect.com",
             "position": "Senior Backend Developer",
             "highlights": [
-                "Co-developed both <a href='http://rallysportdirect.com'>rallysportdirect.com</a> and <a href='http://northridge4x4.com'>northridge4x4.com</a>.",
+                "Co-developed both <a href='http://rallysportdirect.com'>rallysportdirect.com</a> and <a href='http://new.northridge4x4.com'>northridge4x4.com</a>.",
                 "Designed the development, testing, and release flows for entire development department.",
                 "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments, and integration with multiple ERP's.",
                 "Trained our tester on version control and the linux terminal so he could also manage our deploys."
@@ -150,7 +150,7 @@
         {
             "name": "Casey Coones",
             "company": "Ebay",
-            "position": "Software Developer",
+            "position": "Senior Software Engineer",
             "reference": "I guess he doesn't suck."
         }
     ]

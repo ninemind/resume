@@ -11,6 +11,25 @@
     .page-break {
         display: block;
     }
+
+    .pull-right {
+        float: none !important;
+    }
+}
+
+@media (max-width: 1157px) {
+    header {
+        text-align: center;
+    }
+
+    header li {
+        display: inline;
+        white-space: nowrap;
+    }
+
+    header li {
+        padding: 8px;
+    }
 }
 
 body {
@@ -21,22 +40,43 @@ body {
 }
 
 a {
-    color: #0155ab;
     text-decoration: none;
+}
+
+#content a,
+#content a:hover,
+#content a:focus,
+#content a:active {
+    color: #0155ab;
+}
+
+#name, #label {
+    margin: 0;
 }
 
 header, section h3 {
     font-family: 'norwester';
+    color: #fff;
 }
 
 header {
     background-color: #24292c;
-    color: #fff;
-    padding: 16px 32px;
+    padding: 16px 0;
+}
+
+header a,
+header a:hover,
+header a:focus,
+header a:active {
+    color: white;
 }
 
 header h1 {
-    font-size: 64px;
+    font-size: 5em;
+}
+
+.container {
+    padding: 0 3em;
 }
 
 section h3 {
@@ -49,10 +89,11 @@ section h3 {
 
 h4 {
     margin: 0;
+    font-weight: bold;
 }
 
-#job-container > ul,
-#reference-container > ul {
+#job-container > ul:first-of-type,
+#reference-container > ul:first-of-type {
     margin: 0;
     padding: 0;
     
@@ -72,8 +113,8 @@ h4 {
 }
 
 
-#job-container > ul li,
-#reference-container > ul li {
+#job-container > ul:first-of-type li,
+#reference-container > ul:first-of-type li {
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
@@ -83,17 +124,13 @@ h4 {
     font-style: italic;
 }
 
-#references .reference {
-    padding-bottom: 16px;
-}
-
-.highlights {
-    margin-bottom: 32px;
+#references .reference, #jobs .job {
+    padding-bottom: 32px;
 }
 
 li {
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
 }
 
 .page-break {
@@ -103,4 +140,23 @@ li {
     -webkit-column-break-after: always;
     page-break-after: always;
     break-after: always;
+}
+
+.fa-quote-left, .fa-quote-right {
+    font-size: 16px;
+    color: #333;
+}
+
+#contact-info {
+    margin: 0;
+    padding: 0;
+}
+
+#contact-info li {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+#contact-info li i {
+    padding-right: 8px;
 }
