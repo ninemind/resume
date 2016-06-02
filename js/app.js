@@ -1,11 +1,11 @@
 define([
     'jquery',
     'underscore',
-    'text!/templates/header.html',
-    'text!/templates/summary.html',
-    'text!/templates/skills.html',
-    'text!/templates/jobs.html',
-    'text!/templates/references.html'
+    'text!../templates/header.html',
+    'text!../templates/summary.html',
+    'text!../templates/skills.html',
+    'text!../templates/jobs.html',
+    'text!../templates/references.html'
 ], function($, _, HeaderTemplate, SummaryTemplate, SkillTemplate, JobTemplate, ReferenceTemplate) {
     var headerTemplate = _.template(HeaderTemplate),
         summaryTemplate = _.template(SummaryTemplate),
