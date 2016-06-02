@@ -31,8 +31,6 @@ define([
 
     var initialize = function() {
         $.getJSON('resume.json', function(json) {
-            console.log(json);
-
             $('#header').html(headerTemplate({
                 basics: json.basics
             }));
