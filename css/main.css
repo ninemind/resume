@@ -1,19 +1,16 @@
 @font-face {
     font-family: 'norwester';
-    src: url('fonts/norwester.otf');
+    src: url('fonts/norwester.eot');
+    src: local('âº'), url('fonts/norwester.woff') format('woff'), url('fonts/norwester.ttf') format('truetype'), url('fonts/norwester.svg') format('svg');
 }
 
 @media print {
     a:link:after, a:visited:after {    
-        content: "";    
+        content: "";
     }
     
     .page-break {
-        display: block;
-    }
-
-    .pull-right {
-        float: none !important;
+        display: block !important;
     }
 }
 
@@ -32,9 +29,24 @@
     }
 }
 
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 3em !important;
+    }
+
+    header h2 {
+        font-size: 1.5em !important;
+    }
+
+    #contact-info li {
+        font-size: 14px !important;
+    }
+}
+
 body {
-    font-size: 1.5em;
-    line-height: 1.4;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
     color: #333;
 }
 
@@ -53,7 +65,7 @@ a {
     margin: 0;
 }
 
-header, section h3 {
+header h1, header h2, section h3 {
     font-family: 'norwester';
     color: #fff;
 }
@@ -71,14 +83,18 @@ header a:active {
 }
 
 header h1 {
-    font-size: 5em;
+    font-size: 4em;
+}
+
+header h1, header h2 {
+    text-transform: uppercase;
 }
 
 section h3 {
     border-bottom: 2px solid #000;
     text-transform: uppercase;
-    font-size: 32px;
-    margin-top: 20px;
+    font-size: 28px;
+    margin-top: 16px;
     color: #333;
 }
 
@@ -123,14 +139,10 @@ h4 {
     padding-bottom: 32px;
 }
 
-li {
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-}
-
 .page-break {
     display: none;
     text-align: center;
-    
+
     -webkit-column-break-after: always;
     page-break-after: always;
     break-after: always;
@@ -144,15 +156,17 @@ li {
 #contact-info {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 #contact-info li {
     list-style: none;
-    font-size: 1.5em;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 #contact-info li i {
-    padding-right: 8px;
+    padding-right: 6px;
 }
 
 #skill-container ul {
