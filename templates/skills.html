@@ -1,15 +1,7 @@
 <ul>
     <% _.each(skills, function(skill) { %>
-        <li>
-            <div class="skill">
-                <h4><%= skill.name %></h4>
-
-                <!--<ul>-->
-                    <!--<% _.each(skill.keywords, function(keyword) { %>-->
-                        <!--<li><%= keyword %></li>-->
-                    <!--<% }); %>-->
-                <!--</ul>-->
-            </div>
-        </li>
+        <% _.each(skill.keywords, function(keyword) { %>
+            <li><%= keyword %></li>
+        <% }); %>
     <% }); %>
 </ul>

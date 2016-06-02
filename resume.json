@@ -29,7 +29,7 @@
             "highlights": [
                 "Co-developed both <a href='http://rallysportdirect.com'>rallysportdirect.com</a> and <a href='http://new.northridge4x4.com'>northridge4x4.com</a>.",
                 "Designed the development, testing, and release flows for entire development department.",
-                "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments, and integration with multiple ERP's.",
+                "Architect and developer of several high priority projects including: multi-warehouse shipping logic for split shipments and integration with multiple ERP's.",
                 "Trained our tester on version control and the linux terminal so he could also manage our deploys."
             ]
         },
@@ -41,9 +41,9 @@
             "position": "Lead Developer & Architect",
             "highlights": [
                 "Hired as the very first employee and worked directly with the owners of the company.",
-                "Developed a compiled class heirarchy that could circumvent limitations of the programming language selected for the project.",
+                "Developed a compiled class hierarchy that could circumvent limitations of the programming language selected for the project.",
                 "Wrote all of the unit tests for the CMS by following the \"test first\" strategy.",
-                "Developed and co-architected a \"one-size-fits-all\" CMS application for enterprise business solutions."
+                "Developer and co-architect of a \"one-size-fits-all\" CMS application for enterprise business solutions."
             ]
         },
         {
@@ -53,7 +53,7 @@
             "website": "http://wakeupnow.com",
             "position": "Senior Backend Developer",
             "highlights": [
-                "Co-architected and developed new website complete with order processing, payment processing, management, etc...",
+                "Co-architect and developer of the new website complete with order processing, payment processing, management, etc...",
                 "Wrote and maintained unit tests by following the \"test first\" strategy.",
                 "Trained our tester on version control and the linux terminal so she could also manage our deploys.",
                 "Designed the development, testing, and release flows for entire development department."
@@ -92,16 +92,6 @@
     "interests": [],
     "skills": [
         {
-            "name": "Database",
-            "level": "",
-            "keywords": [
-                "MySQL",
-                "MongoDB",
-                "MSSQL",
-                "ElasticSearch"
-            ]
-        },
-        {
             "name": "Web Development",
             "level": "",
             "keywords": [
@@ -114,6 +104,16 @@
                 "WebSockets",
                 "REST",
                 "SOAP"
+            ]
+        },
+        {
+            "name": "Database",
+            "level": "",
+            "keywords": [
+                "MySQL",
+                "MongoDB",
+                "MSSQL",
+                "ElasticSearch"
             ]
         },
         {
