@@ -16,9 +16,8 @@
 
         <% _.each(basics.profiles, function(profile) { %>
         <li>
-            <i class="fa fa-<%= profile.network %>"></i>
+            <i class="fa fa-<%= profile.network.toLowerCase() %>"></i>
             <a href="<%= profile.url %>"><%= profile.username %></a>
-            <!-- TODO: make url show instead of username when printed -->
         </li>
         <% }); %>
     </ul>

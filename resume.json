@@ -15,8 +15,8 @@
             "region": "Utah"
         },
         "profiles": [{
-            "network": "github",
-            "username": "ninemind",
+            "network": "Github",
+            "username": "github.com/ninemind",
             "url": "http://github.com/ninemind"
         }]
     },
@@ -97,7 +97,8 @@
             "keywords": [
                 "MySQL",
                 "MongoDB",
-                "MSSQL"
+                "MSSQL",
+                "ElasticSearch"
             ]
         },
         {
@@ -105,10 +106,14 @@
             "level": "",
             "keywords": [
                 "PHP",
-                "node.js",
                 "HTML",
                 "Javascript",
-                "CSS"
+                "CSS",
+                "AJAX",
+                "node.js",
+                "WebSockets",
+                "REST",
+                "SOAP"
             ]
         },
         {
@@ -116,7 +121,7 @@
             "level": "",
             "keywords": [
                 "Git",
-                "node.js"
+                "Linux"
             ]
         }
     ],
