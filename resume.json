@@ -97,11 +97,11 @@
             "keywords": [
                 "PHP",
                 "HTML",
-                "Javascript",
                 "CSS",
+                "Javascript",
                 "AJAX",
-                "node.js",
-                "WebSockets",
+                "Node.js",
+                "Websockets",
                 "REST",
                 "SOAP"
             ]
@@ -113,7 +113,7 @@
                 "MySQL",
                 "MongoDB",
                 "MSSQL",
-                "ElasticSearch"
+                "Elasticsearch"
             ]
         },
         {
@@ -154,7 +154,7 @@
         },
         {
             "name": "Casey Coones",
-            "company": "Ebay",
+            "company": "eBay",
             "position": "Senior Software Engineer",
             "reference": "I guess he doesn't suck."
         }
