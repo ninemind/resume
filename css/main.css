@@ -12,6 +12,18 @@
     .page-break {
         display: block !important;
     }
+
+    header h1 {
+        font-size: 2em !important;
+    }
+
+    header h2 {
+        font-size: 1em !important;
+    }
+
+    #contact-info li {
+        font-size: 12px !important;
+    }
 }
 
 @media (max-width: 1157px) {
@@ -40,6 +52,22 @@
 
     #contact-info li {
         font-size: 14px !important;
+    }
+
+    section h3 {
+        font-size: 20px !important;
+    }
+
+    h4 {
+        font-size: 14px !important;
+    }
+
+    body {
+        font-size: 12px !important;
+    }
+
+    #references p {
+        font-size: 11px !important;
     }
 }
 
