@@ -50,6 +50,26 @@ define([
             $('#reference-container').html(referenceTemplate({
                 references: json.references
             }));
+
+            function generate_callback(a) {
+                return function() {
+                    window.location = a.attr('href');
+                }
+            }
+
+            $(function() {
+                $('a').on('click', function(e) {
+                    var cb = generate_callback($(this));
+                    e.preventDefault();
+                    mixpanel.track('Visited Link', {
+                        'Text': $(this).text(),
+                        'Location': $(this).attr('href')
+                    }, cb);
+                    setTimeout(cb, 500);
+                });
+            });
+
+            // TODO: capture print
         });
     };
 

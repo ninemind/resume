@@ -4,7 +4,7 @@
            <div class="job">
                 <div class="dates pull-right"><%= _.template.formatDate(job.startDate) %> - <%= _.template.formatDate(job.endDate) %></div>
                 <h4 class="company">
-                    <a href="<%= job.website %>"><%= job.company %></a>
+                    <a href="<%= job.website %>" target="_blank"><%= job.company %></a>
                 </h4>
 
                 <div class="position"><%= job.position %></div>

@@ -17,7 +17,7 @@
         <% _.each(basics.profiles, function(profile) { %>
         <li>
             <i class="fa fa-<%= profile.network.toLowerCase() %>"></i>
-            <a href="<%= profile.url %>"><%= profile.username %></a>
+            <a href="<%= profile.url %>" target="_blank"><%= profile.username %></a>
         </li>
         <% }); %>
     </ul>
