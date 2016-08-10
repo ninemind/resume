@@ -105,8 +105,7 @@
                 "AJAX",
                 "Node.js",
                 "Websockets",
-                "REST",
-                "Data Modeling"
+                "REST"
             ]
         },
         {
@@ -116,7 +115,6 @@
                 "Database Design",
                 "MySQL",
                 "MongoDB",
-                "MSSQL",
                 "Elasticsearch",
                 "Doctrine"
             ]
