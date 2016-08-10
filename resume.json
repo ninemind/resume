@@ -27,7 +27,7 @@
             "website": "http://rallysportdirect.com",
             "position": "Senior Back-end Developer",
             "highlights": [
-                "Co-developed both <a href='http://rallysportdirect.com'>rallysportdirect.com</a> and <a href='http://new.northridge4x4.com'>northridge4x4.com</a>.",
+                "Co-developed both <a href='http://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a> and <a href='http://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a>.",
                 "Designed the development, testing and release flows for the entire development department.",
                 "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments and integration with multiple ERP's.",
                 "Trained project manager on version control and linux commands to effectively manage pull requests and deploys."
