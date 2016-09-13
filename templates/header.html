@@ -16,10 +16,10 @@
         <li class="website"><i class="fa fa-globe"></i><%= basics.website %></li>
 
         <% _.each(basics.profiles, function(profile) { %>
-        <li>
-            <i class="fa fa-<%= profile.network.toLowerCase() %>"></i>
-            <a class="profile-link" href="<%= profile.url %>" target="_blank"><%= profile.title %></a>
-        </li>
+            <li>
+                <i class="fa fa-<%= profile.network.toLowerCase() %>"></i>
+                <a class="profile-link" href="<%= profile.url %>" target="_blank"><%= profile.title %></a>
+            </li>
         <% }); %>
     </ul>
 </div>

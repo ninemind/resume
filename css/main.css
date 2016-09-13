@@ -5,10 +5,6 @@
 }
 
 @media print {
-    .website {
-        display: block !important;
-    }
-
     a:link:after, a:visited:after {    
         content: "";
     }
@@ -27,6 +23,7 @@
 
     #contact-info li {
         font-size: 12px !important;
+        line-height: 0 !important;
     }
 }
 
@@ -120,10 +117,6 @@ header h1 {
 
 header h1, header h2 {
     text-transform: uppercase;
-}
-
-.website {
-    display: none;
 }
 
 section h3 {
