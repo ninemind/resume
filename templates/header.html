@@ -13,7 +13,10 @@
             <i class="fa fa-envelope"></i>
             <a href="mailto:<%= basics.email %>"><%= basics.email %></a>
         </li>
-        <li class="website"><i class="fa fa-globe"></i><%= basics.website %></li>
+        <li class="website">
+            <i class="fa fa-globe"></i>
+            <a class="profile-link" href="<%= basics.website.url %>" target="_blank"><%= basics.website.title %></a>
+        </li>
 
         <% _.each(basics.profiles, function(profile) { %>
             <li>
