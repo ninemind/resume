@@ -24,6 +24,10 @@
     #contact-info li {
         font-size: 12px !important;
     }
+
+    #contact-info .profile-link:link:after, .profile-link:visited:after {
+        content:" [" attr(href) "] ";
+    }
 }
 
 @media (max-width: 1157px) {

@@ -14,11 +14,18 @@
             "countryCode": "US",
             "region": "Utah"
         },
-        "profiles": [{
-            "network": "Github",
-            "username": "github.com/ninemind",
-            "url": "http://github.com/ninemind"
-        }]
+        "profiles": [
+            {
+                "network": "GitHub",
+                "title": "GitHub",
+                "url": "http://github.com/ninemind"
+            },
+            {
+                "network": "LinkedIn",
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/christopher-r-west"
+            }
+        ]
     },
     "work": [
         {
@@ -27,7 +34,7 @@
             "website": "http://rallysportdirect.com",
             "position": "Senior Back-end Developer",
             "highlights": [
-                "Co-developed both <a href='http://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a> and <a href='http://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a>.",
+                "Co-developed <a href='http://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a>, <a href='http://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a>, and <a href='http://cosworthperformance.com' target='_blank' rel='noreferrer'>cosworthperformance.com</a>.",
                 "Designed the development, testing and release flows for the entire development department.",
                 "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments and integration with multiple ERP's.",
                 "Trained project manager on version control and linux commands to effectively manage pull requests and deploys."
