@@ -3,9 +3,9 @@
         "name": "Christopher West",
         "label": "Software Engineer & Architect",
         "picture": "",
-        "email": "9ninemind@gmail.com",
+        "email": "christopher.ryan.west@gmail.com",
         "phone": "(801) 875-0044",
-        "website": "http://ninemind.net",
+        "website": "http://resume.ninemind.net",
         "summary": "I am a skilled developer and architect committed to code quality and maintainability.  I am well organized, a dedicated problem solver, and I put great pride in my work. I'm always ready to learn new things and believe everything has room for improvement.",
         "location": {
             "address": "2140 E Whitekirk Way",
@@ -23,7 +23,7 @@
             {
                 "network": "LinkedIn",
                 "title": "LinkedIn",
-                "url": "https://www.linkedin.com/in/christopher-r-west"
+                "url": "https://linkedin.com/in/christopher-r-west"
             }
         ]
     },

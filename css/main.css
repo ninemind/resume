@@ -5,6 +5,10 @@
 }
 
 @media print {
+    .website {
+        display: block !important;
+    }
+
     a:link:after, a:visited:after {    
         content: "";
     }
@@ -120,6 +124,10 @@ header h1 {
 
 header h1, header h2 {
     text-transform: uppercase;
+}
+
+.website {
+    display: none;
 }
 
 section h3 {
