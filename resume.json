@@ -17,13 +17,8 @@
         "profiles": [
             {
                 "network": "GitHub",
-                "title": "GitHub",
+                "title": "github.com/ninemind",
                 "url": "http://github.com/ninemind"
-            },
-            {
-                "network": "LinkedIn",
-                "title": "LinkedIn",
-                "url": "https://linkedin.com/in/christopher-r-west"
             }
         ]
     },
