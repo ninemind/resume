@@ -32,11 +32,11 @@
             "website": "https://rallysportdirect.com",
             "position": "Senior Back-end Developer",
             "highlights": [
-                "Developing dealer portals (B2B websites) for our parent company and all subsidiaries.  This currently includes <a href='https://wholesale.northridge4x4.com' target='_blank' rel='noreferrer'>wholesale.northridge4x4.com</a> and will later include wholesale.rallysportdirect.com and dealer.premierwd.com.",
-                "Co-developed <a href='https://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a>, <a href='https://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a> and <a href='https://cosworthperformance.com' target='_blank' rel='noreferrer'>cosworthperformance.com</a>.",
-                "Designed the development, testing and release flows for the entire development department.",
-                "Architected and developed several high priority projects multi-warehouse shipping and fulfillment of a single order and integration with multiple ERP's.",
-                "Trained project manager on version control and linux commands to effectively manage pull requests and deploys."
+                "Develop dealer portals (B2B websites) for our parent company and all subsidiaries.  This currently includes <a href='https://wholesale.northridge4x4.com' target='_blank' rel='noreferrer'>wholesale.northridge4x4.com</a> and will later include wholesale.rallysportdirect.com and dealer.premierwd.com.",
+                "Develop custom eCommerce website for <a href='https://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a>, <a href='https://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a> and <a href='https://cosworthperformance.com' target='_blank' rel='noreferrer'>cosworthperformance.com</a>.",
+                "Design the development, testing and release flows for the entire development department.",
+                "Architect and develop several high priority projects including multi-warehouse shipping and fulfillment of a single order.",
+                "Train team members on version control and linux to effectively manage source control, pull requests and deploys."
             ]
         },
         {
@@ -46,10 +46,10 @@
             "website": "https://blackboxcode.com",
             "position": "Lead Developer & Architect",
             "highlights": [
-                "Developed and co-architected a \"one-size-fits-all\" CMS application for enterprise business solutions.",
-                "Hired as the very first employee and worked directly with the owners of the company.",
-                "Developed a compiled class hierarchy that could circumvent limitations of the programming language selected for the project.",
-                "Wrote all of the unit tests for the CMS by following the \"test first\" strategy."
+                "Develop and architect a \"one-size-fits-all\" CMS application for enterprise business solutions.",
+                "First employee of company and worked directly with the owners of the company.",
+                "Develop a class compilation hierarchy for dependency management between clients.",
+                "Write all unit tests for the CMS by following the \"test first\" strategy."
             ]
         },
         {
@@ -59,10 +59,10 @@
             "website": "https://wakeupnow.com",
             "position": "Senior Back-end Developer",
             "highlights": [
-                "Co-architected and developed a new website including order generation, payment processing, and content management.",
-                "Wrote and maintained unit tests by following the \"test first\" strategy.",
-                "Trained testing department to successfully manage releases.",
-                "Designed the development, testing, and release flows for the entire organization."
+                "Architect and develop a new website including order generation, payment processing and content management.",
+                "Write and maintain unit tests by following the \"test first\" strategy.",
+                "Train testing department to successfully manage releases.",
+                "Design the development, testing and release flows for the entire organization."
             ]
         },
         {
@@ -72,11 +72,11 @@
             "website": "https://ereplacementparts.com",
             "position": "Web & Systems Developer",
             "highlights": [
-                "Pioneered the automated collection of data from suppliers. This increased data collection productivity by 500%, reduced overhead needs of the Data Entry Department from 7 to 3 full-time positions and eliminated human error.",
-                "Cleaned up large portions of the system by introducing OOP practices to an otherwise spaghetti-style codebase. This included payment processing via multiple gateways, sales order processing, and content management.",
-                "Researched and implemented document capture technology so that invoices from hundreds of vendors could be tracked and logged.",
-                "Trained employees on web scraping and intelligent document capture.",
-                "Automated interdepartmental tasks to minimize staffing requirements."
+                "Pioneer the automated collection of data from suppliers. This increased data collection productivity by 500%, reduced overhead needs of the Data Entry Department from 7 to 3 full-time positions and eliminated human error.",
+                "Clean up large portions of the system by introducing OOP practices to an otherwise spaghetti-style codebase. This includes payment processing via multiple gateways, sales order processing, and content management.",
+                "Research and implement document capture technology so that invoices from hundreds of vendors can be tracked and logged.",
+                "Train employees on web scraping and intelligent document capture.",
+                "Automate interdepartmental tasks to minimize staffing requirements."
             ]
         }
     ],
@@ -85,7 +85,7 @@
     "awards": [{
         "title": "2nd Place All-State - 3D Animation",
         "date": "2006-05-02",
-        "awarder": "Granite Technical Institute",
+        "awardedBy": "Granite Technical Institute",
         "summary": "2nd place award in a 3D animation contest between students throughout Utah."
     }],
     "publications": [],
