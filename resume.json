@@ -21,7 +21,7 @@
             {
                 "network": "GitHub",
                 "title": "github.com/ninemind",
-                "url": "http://github.com/ninemind"
+                "url": "https://github.com/ninemind"
             }
         ]
     },
@@ -29,7 +29,7 @@
         {
             "startDate": "2015-06-26",
             "company": "RallySport Direct",
-            "website": "http://rallysportdirect.com",
+            "website": "https://rallysportdirect.com",
             "position": "Senior Back-end Developer",
             "highlights": [
                 "Developing dealer portals (B2B websites) for our parent company and all subsidiaries.  This currently includes <a href='https://wholesale.northridge4x4.com' target='_blank' rel='noreferrer'>wholesale.northridge4x4.com</a> and will later include wholesale.rallysportdirect.com and dealer.premierwd.com.",
@@ -43,7 +43,7 @@
             "startDate": "2014-05-26",
             "endDate": "2015-06-01",
             "company": "Black Box Code",
-            "website": "http://blackboxcode.com",
+            "website": "https://blackboxcode.com",
             "position": "Lead Developer & Architect",
             "highlights": [
                 "Developed and co-architected a \"one-size-fits-all\" CMS application for enterprise business solutions.",
@@ -56,7 +56,7 @@
             "startDate": "2014-05-12",
             "endDate": "2015-02-17",
             "company": "WakeUpNow",
-            "website": "http://wakeupnow.com",
+            "website": "https://wakeupnow.com",
             "position": "Senior Back-end Developer",
             "highlights": [
                 "Co-architected and developed a new website including order generation, payment processing, and content management.",
@@ -69,7 +69,7 @@
             "startDate": "2010-03-26",
             "endDate": "2014-01-07",
             "company": "eReplacementParts",
-            "website": "http://ereplacementparts.com",
+            "website": "https://ereplacementparts.com",
             "position": "Web & Systems Developer",
             "highlights": [
                 "Pioneered the automated collection of data from suppliers. This increased data collection productivity by 500%, reduced overhead needs of the Data Entry Department from 7 to 3 full-time positions and eliminated human error.",
