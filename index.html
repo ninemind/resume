@@ -1,7 +1,9 @@
 <html>
     <script src="js/mixpanel.js"></script>
     <script type="text/javascript">
-        mixpanel.track('Page View');
+        if (mixpanel !== undefined) {
+            mixpanel.track('Page View');
+        }
     </script>
 
     <head>

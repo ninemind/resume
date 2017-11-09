@@ -30,7 +30,7 @@ define([
     };
 
     var initialize = function() {
-        $.getJSON('resume.json', function(json) {
+        $.getJSON('resume.json?v=' + Math.random(), function(json) {
             $('#header').html(headerTemplate({
                 basics: json.basics
             }));
@@ -58,15 +58,19 @@ define([
             }
 
             $(function() {
-                $('a').on('click', function(e) {
-                    var cb = generate_callback($(this));
-                    e.preventDefault();
-                    mixpanel.track('Visited Link', {
-                        'Text': $(this).text(),
-                        'Location': $(this).attr('href')
-                    }, cb);
-                    setTimeout(cb, 500);
-                });
+                if (mixpanel !== undefined) {
+                    $('a').on('click', function (e) {
+                        var cb = generate_callback($(this));
+                        e.preventDefault();
+
+                        mixpanel.track('Visited Link', {
+                            'Text': $(this).text(),
+                            'Location': $(this).attr('href')
+                        }, cb);
+
+                        setTimeout(cb, 500);
+                    });
+                }
             });
 
             // TODO: capture print
