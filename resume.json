@@ -32,8 +32,8 @@
             "website": "http://rallysportdirect.com",
             "position": "Senior Back-end Developer",
             "highlights": [
-                "Currently developing dealer portals (B2B websites) for our parent company and all subsidiaries.",
-                "Co-developed <a href='http://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a>, <a href='http://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a>, and <a href='http://cosworthperformance.com' target='_blank' rel='noreferrer'>cosworthperformance.com</a>.",
+                "Currently developing dealer portals (B2B websites) for our parent company and all subsidiaries.  This includes <a href='https://wholesale.northridge4x4.com' target='_blank' rel='noreferrer'>wholesale.northridge4x4.com</a>",
+                "Co-developed <a href='https://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a>, <a href='https://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a>, and <a href='https://cosworthperformance.com' target='_blank' rel='noreferrer'>cosworthperformance.com</a>.",
                 "Designed the development, testing and release flows for the entire development department.",
                 "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments and integration with multiple ERP's.",
                 "Trained project manager on version control and linux commands to effectively manage pull requests and deploys."

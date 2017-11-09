@@ -1,8 +1,8 @@
 require.config({
     paths: {
-        text:       '../bower_components/text/text',
-        jquery:     '../bower_components/jquery/dist/jquery.min',
-        underscore: '../bower_components/underscore/underscore-min'
+        text:       '../node_modules/text/text',
+        jquery:     '../node_modules/jquery/dist/jquery.min',
+        underscore: '../node_modules/underscore/underscore-min'
     }
 });
 
