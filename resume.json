@@ -11,11 +11,11 @@
         },
         "summary": "I am a skilled developer and architect committed to code quality and maintainability.  I am well organized, a dedicated problem solver, and I put great pride in my work. I'm always ready to learn new things and believe everything has room for improvement.",
         "location": {
-            "address": "2140 E Whitekirk Way",
-            "postalCode": "84020",
-            "city": "Draper",
+            "address": "3035 Oneal Pkwy #T38",
+            "postalCode": "80301",
+            "city": "Boulder",
             "countryCode": "US",
-            "region": "Utah"
+            "region": "Colorado"
         },
         "profiles": [
             {
@@ -32,10 +32,10 @@
             "website": "http://rallysportdirect.com",
             "position": "Senior Back-end Developer",
             "highlights": [
-                "Currently developing dealer portals (B2B websites) for our parent company and all subsidiaries.  This includes <a href='https://wholesale.northridge4x4.com' target='_blank' rel='noreferrer'>wholesale.northridge4x4.com</a>",
-                "Co-developed <a href='https://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a>, <a href='https://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a>, and <a href='https://cosworthperformance.com' target='_blank' rel='noreferrer'>cosworthperformance.com</a>.",
+                "Developing dealer portals (B2B websites) for our parent company and all subsidiaries.  This currently includes <a href='https://wholesale.northridge4x4.com' target='_blank' rel='noreferrer'>wholesale.northridge4x4.com</a> and will later include wholesale.rallysportdirect.com and dealer.premierwd.com.",
+                "Co-developed <a href='https://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a>, <a href='https://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a> and <a href='https://cosworthperformance.com' target='_blank' rel='noreferrer'>cosworthperformance.com</a>.",
                 "Designed the development, testing and release flows for the entire development department.",
-                "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments and integration with multiple ERP's.",
+                "Architected and developed several high priority projects multi-warehouse shipping and fulfillment of a single order and integration with multiple ERP's.",
                 "Trained project manager on version control and linux commands to effectively manage pull requests and deploys."
             ]
         },
