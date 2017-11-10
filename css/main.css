@@ -82,6 +82,13 @@ a {
     text-decoration: none;
 }
 
+#pdf {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3em;
+}
+
 #content a,
 #content a:hover,
 #content a:focus,

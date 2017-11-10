@@ -30,6 +30,13 @@
         </header>
        
         <div id="content" class="container">
+            <div id="pdf">
+
+                <a href="Résumé%20-%20Christopher%20West.pdf" download>
+                    <i class="fa fa-file-pdf-o"></i>.pdf
+                </a>
+            </div>
+
             <section id="summary">
                 <h3>
                     <i class="fa fa-flash"></i>
@@ -65,3 +72,17 @@
         </div>
     </body>
 </html>
+
+<script type="text/javascript">
+    function printDocument(id) {
+        var doc = $('#' + id);
+
+        if (typeof doc.print === 'undefined') {
+            setTimeout(function() {
+                printDocument(id);
+            }, 1000);
+        } else {
+            doc.print();
+        }
+    }
+</script>
