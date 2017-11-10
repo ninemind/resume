@@ -24,6 +24,10 @@
     #contact-info li {
         font-size: 12px !important;
     }
+
+    #pdf {
+        display: none;
+    }
 }
 
 @media (max-width: 1157px) {
@@ -68,6 +72,10 @@
 
     #references p {
         font-size: 11px !important;
+    }
+
+    #pdf {
+        display: none;
     }
 }
 
