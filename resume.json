@@ -102,15 +102,10 @@
             "level": "",
             "keywords": [
                 "PHP",
-                "OOP",
-                "PHPUnit",
-                "Symfony",
+                "PHPUnit / Mockery",
                 "HTML",
                 "CSS",
                 "Javascript",
-                "AJAX",
-                "Node.js",
-                "Websockets",
                 "REST"
             ]
         },
@@ -118,21 +113,17 @@
             "name": "Database",
             "level": "",
             "keywords": [
-                "Database Design",
                 "MySQL",
-                "MongoDB",
-                "Elasticsearch",
-                "Doctrine"
+                "MongoDB"
             ]
         },
         {
             "name": "Other",
             "level": "",
             "keywords": [
-                "System Architecture",
                 "Git",
                 "Linux",
-                "Automated Testing"
+                "Selenium / Codeception"
             ]
         }
     ],
