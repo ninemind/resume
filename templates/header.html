@@ -1,0 +1,28 @@
+<div class="col-xs-12 col-md-8">
+    <h1 id="name"><%= basics.name %></h1>
+    <h2 id="label"><%= basics.label %></h2>
+</div>
+
+<div class="col-xs-12 col-md-4 text-center">
+    <ul id="contact-info">
+        <li class="website">
+            <i class="fa fa-map-marker"></i>
+            <%= basics.location.city %>, <%= basics.location.region %>
+        </li>
+        <li>
+            <i class="fa fa-phone"></i>
+            <a href="tel:+<%= _.template.flattenPhone(basics.phone) %>"><%= basics.phone %></a>
+        </li>
+        <li>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:<%= basics.email %>"><%= basics.email %></a>
+        </li>
+
+        <% _.each(basics.profiles, function(profile) { %>
+            <li>
+                <i class="fa fa-<%= profile.network.toLowerCase() %>"></i>
+                <a class="profile-link" href="<%= profile.url %>" target="_blank"><%= profile.title %></a>
+            </li>
+        <% }); %>
+    </ul>
+</div>

@@ -1,0 +1,7 @@
+<ul>
+    <% _.each(skills, function(skill) { %>
+        <% _.each(skill.keywords, function(keyword) { %>
+            <li><%= keyword %></li>
+        <% }); %>
+    <% }); %>
+</ul>

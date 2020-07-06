@@ -1,78 +1,83 @@
 {
     "basics": {
         "name": "Christopher West",
-        "label": "Software Developer & Architect",
+        "label": "Sr. Solutions Architect & Developer",
         "picture": "",
-        "email": "9ninemind@gmail.com",
-        "phone": "(801) 875-0044",
-        "website": "http://ninemind.net",
-        "summary": "I am a skilled developer commited to code quality and maintainability.  I am well organized, a problem solver and put great pride on my work. I'm always ready to learn new things and believe everything has room for improvement.",
-        "location": {
-            "address": "2140 E Whitekirk Way",
-            "postalCode": "84020",
-            "city": "Draper",
-            "countryCode": "US",
-            "region": "Utah"
+        "email": "christopher.ryan.west@gmail.com",
+        "phone": "801.875.0044",
+        "website": {
+            "title": "resume.ninemind.net",
+            "url": "http://resume.ninemind.net"
         },
-        "profiles": [{
-            "network": "GitHub",
-            "username": "ninemind",
-            "url": "github.com/ninemind"
-        }]
+        "summary": "<p><h4>10+ years of success designing & developing highly scalable software applications.</h4></p><p>I am a skilled developer committed to code quality and maintainability. I am dynamic, passionate, well organized, and a dedicated problem solver. I put great pride in my work and am always ready and willing to increase my skill set. I have a wealth of knowledge launching and maintaining eCommerce applications that bring in multi-millions of dollars in annual revenue. I consistently complete complex technical projects on-time and with exceptional quality. I strive to build talented teams by sharing my expertise and promoting team members into areas of increased responsibilities.</p>",
+        "location": {
+            "address": "13538 Raritan Way",
+            "postalCode": "80234",
+            "city": "Westminster",
+            "countryCode": "US",
+            "region": "Colorado"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "title": "github.com/ninemind",
+                "url": "https://github.com/ninemind"
+            }
+        ]
     },
     "work": [
         {
             "startDate": "2015-06-26",
-            "company": "RallySport Direct",
-            "website": "http://rallysportdirect.com",
-            "position": "Senior Backend Developer",
-            "summary": "Senior backend developer for both rallysportdirect.com and northridge4x4.com. Architect of new systems and integrations.",
+            "company": "Aftermarket Performance Group",
+            "website": "https://www.aftermarketperformancegroup.com/",
+            "position": "Lead Developer",
             "highlights": [
-                "Designed the development, testing, and release flows for entire development department.",
-                "Architected and developed several high priority projects including multi-warehouse shipping logic for split shipments, and integration with multiple ERP's.",
-                "Trained our tester on version control and the linux terminal so he could also manage our deploys."
+                "Successfully migrated our eCommerce websites from Microsoft Great Plains (GP) to NetSuite with no negative impact on website performance or revenue.  Recognized as <strong>the</strong> most successful ERP migration our executive member's have experienced.",
+                "Completed migration of <a href='https://www.subispeed.com' target='_blank' rel='noreferrer'>subispeed.com</a>'s & <a href='https://www.ftspeed.com' target='_blank' rel='noreferrer'>ftspeed.com</a>'s Magento stores to our codebase with no major issues.",
+                "Developed dealer portals (B2B websites) for our subsidiaries.  This currently includes <a href='https://wholesale.northridge4x4.com' target='_blank' rel='noreferrer'>wholesale.northridge4x4.com</a> and <a href='https://wholesale.rallysportdirect.com' target='_blank' rel='noreferrer'>wholesale.rallysportdirect.com</a>.",
+                "Developed custom retail eCommerce websites for <a href='https://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a> and <a href='https://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a>.",
+                "Lead web integrations with 3rd party API's, Dell Boomi, and multiple ERP's. This included detailing requirements for 3rd parties when negotiating contracts.",
+                "Architected and developed several high priority projects including multi-warehouse shipping and fulfillment of a single order."
             ]
         },
         {
-            "startDate": "2015-04-01",
+            "startDate": "2014-05-26",
             "endDate": "2015-06-01",
-            "company": "BlackBoxCode",
-            "website": "http://blackboxcode.com",
+            "company": "Black Box Code",
+            "website": "https://blackboxcode.com",
             "position": "Lead Developer & Architect",
-            "summary": "Lead developer and co-architect of a large scale CMS.",
             "highlights": [
-                "Hired as the very first employee of the company and worked directly with the owners.",
-                "Wrote all of the unit tests for the CMS by following the \"test first\" strategy.",
-                "Developed and co-architected a \"one-size-fits-all\" CMS application for enterprise business solutions."
+                "Developed and architected a \"one-size-fits-all\" eCommerce application for enterprise business solutions.",
+                "Hired as the very first employee and worked directly with the owners of the company.",
+                "Developed a class compilation hierarchy for dependency management between clients.",
+                "Wrote all unit tests for the eCommerce application by following the \"test first\" strategy."
             ]
         },
         {
             "startDate": "2014-05-12",
             "endDate": "2015-02-17",
             "company": "WakeUpNow",
-            "website": "http://wakeupnow.com",
-            "position": "Senior Backend Developer",
-            "summary": "Fixed bugs, wrote new web applications in the Symfony2 framework.",
+            "website": "https://wakeupnow.com",
+            "position": "Senior Back-end Developer",
             "highlights": [
-                "Co-architected and developed new website complete with order processing, payment processing, management, etc...",
+                "Architected and developed a new website including order generation, payment processing and content management.",
                 "Wrote and maintained unit tests by following the \"test first\" strategy.",
-                "Trained our tester on version control and the linux terminal so she could also manage our deploys.",
-                "Designed the development, testing, and release flows for entire development department.",
-                "Co-developed JSON-RPC api for interfacing with the legacy site as we replaced it's features one by one."
+                "Trained QA department to successfully manage releases.",
+                "Designed the development, testing and release flows for the entire organization."
             ]
         },
         {
             "startDate": "2010-03-26",
             "endDate": "2014-01-07",
-            "company": "eReplacementParts.com",
-            "website": "http://ereplacementparts.com",
+            "company": "eReplacementParts",
+            "website": "https://ereplacementparts.com",
             "position": "Web & Systems Developer",
-            "summary": "Automated interdepartmental tasks and developed applications for content management.",
             "highlights": [
                 "Pioneered the automated collection of data from suppliers. This increased data collection productivity by 500%, reduced overhead needs of the Data Entry Department from 7 to 3 full-time positions and eliminated human error.",
-                "Developed a class hierarchy for processing payments through multiple gateways such as Authorize.net and PaymentXP without needing to rewrite code.",
-                "Researched and implemented document capture technology",
-                "Trained employees on web scraping and intelligent document capture."
+                "Cleaned up large portions of the system by introducing OOP practices to an otherwise spaghetti-style codebase. This included payment processing via multiple gateways, sales order processing, and content management.",
+                "Researched and implemented document capture technology so that invoices from hundreds of vendors could be tracked and logged.",
+                "Trained employees on web scraping and intelligent document capture.",
+                "Automated interdepartmental tasks to minimize staffing requirements."
             ]
         }
     ],
@@ -81,7 +86,7 @@
     "awards": [{
         "title": "2nd Place All-State - 3D Animation",
         "date": "2006-05-02",
-        "awarder": "Granite Technical Institute",
+        "awardedBy": "Granite Technical Institute",
         "summary": "2nd place award in a 3D animation contest between students throughout Utah."
     }],
     "publications": [],
@@ -94,33 +99,75 @@
     "interests": [],
     "skills": [
         {
-            "name": "Database",
-            "level": "",
-            "keywords": [
-                "MySQL",
-                "MongoDB",
-                "MSSQL"
-            ]
-        },
-        {
             "name": "Web Development",
             "level": "",
             "keywords": [
                 "PHP",
-                "node.js",
-                "HTML",
-                "Javascript",
-                "CSS"
+                "PHPUnit / Mockery",
+                "FatFree",
+                "Laravel",
+                "Symfony",
+                "HTML5",
+                "CSS",
+                "JavaScript",
+                "REST / SOAP"
+            ]
+        },
+        {
+            "name": "Database",
+            "level": "",
+            "keywords": [
+                "SQL",
+                "MongoDB",
+                "Database Design"
             ]
         },
         {
             "name": "Other",
             "level": "",
             "keywords": [
+                "NGINX / Apache",
+                "React / React Native",
                 "Git",
-                "node.js"
+                "Linux",
+                "Dell Boomi",
+                "eCommerce Applications",
+                "ERP Integrations"
             ]
         }
     ],
-    "references": []
+    "references": [
+        {
+            "name": "Adam Boswell",
+            "company": "World Cup of Sales",
+            "position": "CTO",
+            "email": "adam.boswell@thewcos.com",
+            "phone": "(808) 276-6658",
+            "reference": "It is with great pride that I recommend Christopher West as your next Sr. Software Engineer or Architect. I have had the pleasure of working with Chris on multiple occasions. I can say without hesitation that, the often-frustrating issues related to poor code, missed deadlines or unreliability, are simply eliminated when Chris is around. Chris takes the time to get projects done right and he has spent more than one weekend working on upgrades, maintenance projects and critical releases.</p><p>My association with Chris began approximately 2 years ago while I was serving as CEO of Black Box Code, a software solutions company. Chris and I worked together on many projects giving me authority to say, he is a meticulous planner and puts his whole heart into his tasks. This may seem trivial but having someone on staff that truly loves what they do is the difference between an average employee and a passionate professional, Chris is unquestionably the latter.</p><p>In my interactions with Chris he has always expressed the need to excel and progress. I recommend challenging him; this is where I was able to see the greatest growth in him. He quickly adapted and advanced to drive innovation and proper code practices. Chris’ exceptional personal and professional attitude also makes him a well-suited and fantastic team member. Someone suited to lead when needed and follow when directed.</p><p>Chris is, without a doubt, a quality software engineer and would do great things for your organization."
+        },
+        {
+            "name": "Shandee Whittle",
+            "company": "eReplacementParts",
+            "position": "Data Ops Manager",
+            "reference": "It is my pleasure to recommend Christopher West, his performance working as part of our development team proved that he will be a valuable addition to any company.</p><p>I have worked with Christopher for more than three years. Early in his employment, Christopher had some ideas for process improvement.  He wrote scripts to collect the data we received from our clients and formatted it for our website.  With these, my department was able to finish the project in about five months.  The project would have taken four times that long without the automation system Christopher developed for that project.  Christopher continued to work for me on various projects, and based on his work, I would rank him as one of the best developers we have ever had.</p><p>Christopher distinguished himself by consistently submitting exceptionally well-designed and well-thought-out programs for tasks in multiple departments throughout our company. Christopher is highly intelligent and has good analytical and communication skills.</p><p>His performance in our company is a good indication of how he would perform in yours, he would be an extremely positive asset to your company."
+        },
+        {
+            "name": "Derek Foreman",
+            "company": "eReplacementParts",
+            "position": "President of Operations",
+            "reference": "Christopher worked at eReplacementParts for four years. He quickly became one of our top PHP developers. During this time, he had a very positive impact on the company.</p><p>Chris worked on a lot of projects for a lot of different people. He excelled at seeing the visions of others, and he understood the big picture. He was a favorite around the office because of his ability to bridge the communication gap between himself and non-developers. Because of the nature of what he was working on, the scope of his projects would often change. Sometimes this was due to new information; sometimes it was due to changing needs. Chris was able to handle these changes very well and always came up with a final product that made everyone involved happy.</p><p>Chris takes pride in his work, and when he says a project is finished, he means it. His PHP knowledge is complete and his work ethic is incredible. He rarely misses time, and he is always on task.</p><p>For years, our company went through a lot of developers, trying to put the right team together. Chris was a part of that winning team. If I were in a position to hire a developer right now, Chris West would be number one on that list."
+        },
+        {
+            "name": "Michael Foreman",
+            "company": "eReplacementParts",
+            "position": "Director of Web Development",
+            "reference": "I've had the pleasure of working with Christopher West for the past four years.  He was already an excellent employee when, unprompted, he revolutionized our processes over a weekend.  Everything we do today is built on his early work.</p><p>When people brought us development projects to be done for their departments, they would specifically request Chris. Everyone knew that having Chris work on it meant it would get done right. He was a great developer to have working on your projects - he asks the right questions, but he also knows when it's up to him to fill in the blanks.</p><p>Good developers are hard to come by, and Christopher West is a great developer. He's smart, easy to work with, reliable, fast, thorough, and he has great initiative. In an environment where we often have to settle for 6's and 7's, he is a 10. I cannot recommend him strongly enough."
+        },
+        {
+            "name": "Casey Coones",
+            "company": "eBay",
+            "position": "Senior Software Engineer",
+            "reference": "I guess he doesn't suck."
+        }
+    ]
 }
