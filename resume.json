@@ -1,13 +1,13 @@
 {
     "basics": {
         "name": "Christopher West",
-        "label": "Sr. Solutions Architect & Developer",
+        "label": "Sr. Software Engineer",
         "picture": "",
         "email": "christopher.ryan.west@gmail.com",
         "phone": "801.875.0044",
         "website": {
-            "title": "resume.ninemind.net",
-            "url": "http://resume.ninemind.net"
+            "title": "ninemind.github.io/resume",
+            "url": "https://ninemind.github.io/resume/"
         },
         "summary": "<p><h4>10+ years of success designing & developing highly scalable software applications.</h4></p><p>I am a skilled developer committed to code quality and maintainability. I am dynamic, passionate, well organized, and a dedicated problem solver. I put great pride in my work and am always ready and willing to increase my skill set. I have a wealth of knowledge launching and maintaining eCommerce applications that bring in multi-millions of dollars in annual revenue. I consistently complete complex technical projects on-time and with exceptional quality. I strive to build talented teams by sharing my expertise and promoting team members into areas of increased responsibilities.</p>",
         "location": {
@@ -30,10 +30,10 @@
             "startDate": "2015-06-26",
             "company": "Aftermarket Performance Group",
             "website": "https://www.aftermarketperformancegroup.com/",
-            "position": "Lead Developer",
+            "position": "Lead Software Engineer",
             "highlights": [
                 "Successfully migrated our eCommerce websites from Microsoft Great Plains (GP) to NetSuite with no negative impact on website performance or revenue.  Recognized as <strong>the</strong> most successful ERP migration our executive member's have experienced.",
-                "Completed migration of <a href='https://www.subispeed.com' target='_blank' rel='noreferrer'>subispeed.com</a>'s & <a href='https://www.ftspeed.com' target='_blank' rel='noreferrer'>ftspeed.com</a>'s Magento stores to our codebase with no major issues.",
+                "Lead the migration of <a href='https://www.subispeed.com' target='_blank' rel='noreferrer'>subispeed.com</a>'s & <a href='https://www.ftspeed.com' target='_blank' rel='noreferrer'>ftspeed.com</a>'s Magento stores to our codebase. Upon completion, both companies sales increased and have stayed consistently higher than the Magento store.",
                 "Developed dealer portals (B2B websites) for our subsidiaries.  This currently includes <a href='https://wholesale.northridge4x4.com' target='_blank' rel='noreferrer'>wholesale.northridge4x4.com</a> and <a href='https://wholesale.rallysportdirect.com' target='_blank' rel='noreferrer'>wholesale.rallysportdirect.com</a>.",
                 "Developed custom retail eCommerce websites for <a href='https://rallysportdirect.com' target='_blank' rel='noreferrer'>rallysportdirect.com</a> and <a href='https://northridge4x4.com' target='_blank' rel='noreferrer'>northridge4x4.com</a>.",
                 "Lead web integrations with 3rd party API's, Dell Boomi, and multiple ERP's. This included detailing requirements for 3rd parties when negotiating contracts.",
