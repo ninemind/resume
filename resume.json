@@ -27,7 +27,14 @@
     },
     "work": [
         {
+            "startDate": "2020-11-17",
+            "company": "Dropbox",
+            "website": "https://dropbox.com",
+            "position": "Senior Software Engineer"
+        },
+        {
             "startDate": "2015-06-26",
+            "endDate": "2020-11-12",
             "company": "Aftermarket Performance Group",
             "website": "https://www.aftermarketperformancegroup.com/",
             "position": "Lead Software Engineer",
