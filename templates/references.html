@@ -1,15 +1,13 @@
-<ul>
-    <% _.each(references, function(reference) { %>
-        <li>
-            <div class="reference">
-                <p>
-                    <i class="fa fa-quote-left"></i>
-                    <%= reference.reference %>
-                    <i class="fa fa-quote-right"></i>
-                </p>
-                <h4>&mdash; <a href="mailto:<%= reference.email %>"><%= reference.name %></a></h4>
-                <div><%= reference.position %> @ <%= reference.company %></div>
-            </div>
-        </li>
-    <% }); %>
-</ul>
+<div class="references-grid">
+    {{#references}}
+    <div class="reference-card">
+        <div class="reference-header">
+            <h4 class="reference-name">{{name}}</h4>
+            <div class="reference-title">{{position}} at {{company}}</div>
+        </div>
+        <div class="reference-content">
+            {{{reference}}}
+        </div>
+    </div>
+    {{/references}}
+</div>

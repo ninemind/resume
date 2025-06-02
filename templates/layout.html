@@ -1,0 +1,54 @@
+<div class="container">
+    {{> header}}
+    {{#basics.summary}}
+    <section id="summary">
+        <h3><i class="fa fa-user"></i> Professional Summary</h3>
+        <div id="summary-container">
+            {{{basics.summary}}}
+        </div>
+    </section>
+    {{/basics.summary}}
+
+    {{#skills.0}}
+    <section id="skills">
+        <h3><i class="fa fa-code"></i> Technical Skills</h3>
+        <div id="skills-container">
+            {{> skills}}
+        </div>
+    </section>
+    {{/skills.0}}
+
+    {{#work.0}}
+    <section id="work">
+        <h3><i class="fa fa-briefcase"></i> Professional Experience</h3>
+        <div id="jobs-container">
+            {{> jobs}}
+        </div>
+    </section>
+    {{/work.0}}
+
+    {{#education.0}}
+    <section id="education">
+        <h3><i class="fa fa-graduation-cap"></i> Education</h3>
+        <div id="education-container">
+            {{> education}}
+        </div>
+    </section>
+    {{/education.0}}
+
+    <div class="page-break"></div>
+
+    {{#references.0}}
+    <section id="references">
+        <h3><i class="fa fa-quote-left"></i> Professional References</h3>
+        <div id="references-container">
+            {{> references}}
+        </div>
+    </section>
+    {{/references.0}}
+</div>
+<div id="pdf">
+    <button type="button">
+        <i class="fa fa-file-pdf-o"></i> Download PDF
+    </button>
+</div> 
