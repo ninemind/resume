@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500&display=swap');
+
 @font-face {
     font-family: 'norwester';
     src: url('fonts/norwester.eot');
@@ -5,28 +7,180 @@
 }
 
 @media print {
-    a:link:after, a:visited:after {    
-        content: "";
+    html, body, .container {
+        background: #fff !important;
+        color: var(--text) !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        font-size: 7.5pt !important;
+        line-height: 1.1 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        font-family: 'Inter', 'Montserrat', Arial, sans-serif !important;
     }
-    
-    .page-break {
+
+    .pdf-page {
+        page-break-after: always;
+        height: 11in;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pdf-page:last-child {
+        page-break-after: auto;
+    }
+
+    section {
+        page-break-inside: avoid;
+    }
+
+    #references {
+        page-break-before: always !important;
+    }
+
+    .container {
+        padding: 0.1in !important;
+        background: #fff !important;
+        box-shadow: none !important;
+    }
+
+    .header-wrapper, .header-main {
+        margin-bottom: 0.15em !important;
+        padding-bottom: 0 !important;
+    }
+
+    section, .timeline-item {
+        margin-bottom: 0.15em !important;
+        padding-bottom: 0 !important;
+        border-bottom: 1px solid var(--border) !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    section:last-child {
+        border-bottom: none !important;
+    }
+
+    h1.header-name {
+        font-size: 10pt !important;
+        margin-bottom: 0.02em !important;
+    }
+
+    h2.header-title {
+        font-size: 7.5pt !important;
+        margin-bottom: 0.05em !important;
+    }
+
+    .header-location, .header-contact {
+        font-size: 7pt !important;
+        display: inline !important;
+        margin-right: 1em !important;
+    }
+
+    .header-contact {
+        margin-left: 0.3em !important;
+    }
+
+    .header-contact .contact-item {
+        display: inline !important;
+        margin-right: 0.7em !important;
+        margin-bottom: 0 !important;
+    }
+
+    .header-contact .contact-item:last-child {
+        margin-right: 0 !important;
+    }
+
+    section h3 {
+        font-size: 7.5pt !important;
+        margin: 0 0 0.15em 0 !important;
+        padding-bottom: 0.03em !important;
+    }
+
+    .skills-grid, .references-grid {
         display: block !important;
     }
 
-    header h1 {
-        font-size: 2em !important;
+    .skill-category {
+        margin-bottom: 0 !important;
     }
 
-    header h2 {
-        font-size: 1em !important;
+    .skill-category-title {
+        display: none !important;
     }
 
-    #contact-info li {
-        font-size: 12px !important;
+    .skill-tags {
+        font-size: 7.5pt !important;
+        color: var(--text) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 1.1 !important;
+    }
+
+    .job-highlights {
+        margin-left: 0.5em !important;
+    }
+
+    .job-highlights li {
+        font-size: 7.5pt !important;
+        margin-bottom: 0.05em !important;
+    }
+
+    .reference-card {
+        font-size: 7.5pt !important;
+        padding: 0.03em 0 !important;
+    }
+
+    .reference-name {
+        margin: 0 0 0.02em 0 !important;
+    }
+
+    .reference-title {
+        margin-bottom: 0.02em !important;
+    }
+
+    .page-break {
+        display: none !important;
     }
 
     #pdf {
-        display: none;
+        display: none !important;
+    }
+
+    a, a:visited {
+        color: var(--text) !important;
+        text-decoration: none !important;
+        pointer-events: none !important;
+        cursor: default !important;
+    }
+
+    a[href]:after {
+        content: "" !important;
+    }
+
+    .header-social {
+        display: block !important;
+    }
+
+    .header-social .social-item {
+        display: inline !important;
+        text-decoration: underline !important;
+        color: var(--text) !important;
+        font-size: 7.5pt !important;
+        margin-right: 1em !important;
+    }
+
+    .header-social .social-item i {
+        display: none !important;
+    }
+
+    .social-link-text {
+        display: inline !important;
+        color: var(--text) !important;
+        font-size: 7.5pt !important;
+        margin-left: 0.2em;
     }
 }
 
@@ -79,153 +233,328 @@
     }
 }
 
-body {
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.3;
-    color: #333;
+:root {
+    --primary: #2c3e50;
+    --secondary: #34495e;
+    --accent: #ff7e67;
+    --text: #2c3e50;
+    --text-light: #7f8c8d;
+    --border: #ecf0f1;
+    --background: #ffffff;
 }
 
-a {
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--text);
+    line-height: 1.5;
+    background: var(--background);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 8.5in;
+    margin: 2rem auto;
+    background: var(--background);
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    min-height: unset;
+    overflow: visible;
+    padding: 0.5in;
+}
+
+/* Remove sidebar and main-content */
+.sidebar, .main-content {
+    all: unset;
+}
+
+/* Header Styles */
+.header-wrapper {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 1rem;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-name {
+    font-family: 'Montserrat', 'Inter', sans-serif;
+    font-size: 28pt;
+    font-weight: 700;
+    margin: 0;
+    color: var(--accent);
+    letter-spacing: 1px;
+}
+
+.header-title {
+    font-size: 15pt;
+    font-weight: 500;
+    margin: 0.25rem 0;
+    color: var(--primary);
+}
+
+.header-location {
+    font-size: 11pt;
+    color: var(--text-light);
+}
+
+.header-contact {
+    text-align: right;
+}
+
+.contact-item {
+    display: block;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 10.5pt;
+    margin-bottom: 0.25rem;
+}
+
+.contact-item i {
+    width: 1rem;
+    color: var(--accent);
+    margin-right: 0.4em;
+}
+
+.header-social {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.social-item {
+    color: var(--accent);
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.social-item:hover {
+    color: var(--primary);
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2rem;
+    background: var(--background);
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+section h3 {
+    font-family: 'Montserrat', 'Inter', sans-serif;
+    font-size: 14pt;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.25rem;
+    border-bottom: none;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section h3 i {
+    color: var(--primary);
+    margin-right: 0.5rem;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.skill-category {
+    margin-bottom: 1.5rem;
+}
+
+.skill-category-title {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 0 0 0.5rem 0;
+}
+
+.skill-tags {
+    font-size: 10.5pt;
+    color: #222;
+    font-family: 'Inter', Arial, sans-serif;
+    letter-spacing: 0.1px;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+/* Work Experience */
+.timeline {
+    position: relative;
+}
+
+.timeline-item {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px dashed var(--border);
+}
+
+.timeline-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.job-title {
+    font-size: 12pt;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0;
+    font-family: 'Montserrat', 'Inter', sans-serif;
+}
+
+.job-company {
+    font-size: 11pt;
+    color: var(--accent);
+}
+
+.job-company a {
+    color: inherit;
     text-decoration: none;
 }
 
+.job-date {
+    font-size: 10pt;
+    color: var(--text-light);
+}
+
+.job-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.job-highlights li {
+    font-size: 10.5pt;
+    margin-bottom: 0.3rem;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.job-highlights li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 11pt;
+}
+
+/* References Section */
+.references-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.reference-card {
+    font-size: 10pt;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+}
+
+.reference-name {
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0 0 0.25rem 0;
+}
+
+.reference-title {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.reference-content {
+    font-style: italic;
+}
+
+/* PDF Download Button */
 #pdf {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    font-size: 3em;
+    z-index: 1000;
 }
 
-#content a,
-#content a:hover,
-#content a:focus,
-#content a:active {
-    color: #0155ab;
-}
-
-#name, #label {
-    margin: 0;
-}
-
-header h1, header h2, section h3 {
-    font-family: 'norwester';
-    color: #fff;
-}
-
-header {
-    background-color: #24292c;
-    padding: 16px 0;
-}
-
-header a,
-header a:hover,
-header a:focus,
-header a:active {
+#pdf button {
+    background: var(--primary);
     color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s;
 }
 
-header h1 {
-    font-size: 4em;
+#pdf button:hover {
+    background: var(--secondary);
 }
 
-header h1, header h2 {
-    text-transform: uppercase;
+#pdf button i {
+    font-size: 16px;
 }
 
-section h3 {
-    border-bottom: 2px solid #000;
-    text-transform: uppercase;
-    font-size: 28px;
-    margin-top: 16px;
-    color: #333;
+.social-link-text {
+    display: none;
 }
 
-h4 {
-    margin: 0;
-    font-weight: bold;
-}
-
-#job-container > ul:first-of-type,
-#reference-container > ul:first-of-type {
-    margin: 0;
-    padding: 0;
-    
-    list-style: none;
-    
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    
-    -webkit-column-gap: 100px;
-    -moz-column-gap: 100px;
-    column-gap: 100px;
-    
-    -webkit-column-width: 300px;
-    -moz-column-width: 300px;
-    column-width: 300px;
-}
-
-
-#job-container > ul:first-of-type li,
-#reference-container > ul:first-of-type li {
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-#references p {
-    font-style: italic;
-}
-
-#references .reference, #jobs .job {
-    padding-bottom: 32px;
-}
-
+/* Remove the old page break styles */
 .page-break {
     display: none;
-    text-align: center;
-
-    -webkit-column-break-after: always;
-    page-break-after: always;
-    break-after: always;
 }
 
-.fa-quote-left, .fa-quote-right {
-    font-size: 16px;
-    color: #333;
-}
-
-#contact-info {
-    margin: 0;
-    padding: 0;
-    color: white;
-}
-
-#contact-info li {
-    list-style: none;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-#contact-info li i {
-    padding-right: 6px;
-}
-
-#skill-container ul {
-    -webkit-columns: 4 100px;
-    -moz-columns: 4 100px;
-    columns: 4 100px;
-
+/* Remove pill/badge styles */
+.skill-tag {
+    all: unset;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: none;
     padding: 0;
     margin: 0;
-}
-
-#skill-container ul li {
-    list-style: none;
-}
-
-.highlights {
-    list-style: circle;
-    padding-left: 1.75em;
+    box-shadow: none;
+    border-radius: 0;
+    display: inline;
 }

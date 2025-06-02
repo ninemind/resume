@@ -1,7 +1,12 @@
-<ul>
-    <% _.each(skills, function(skill) { %>
-        <% _.each(skill.keywords, function(keyword) { %>
-            <li><%= keyword %></li>
-        <% }); %>
-    <% }); %>
-</ul>
+<div class="skills-grid">
+    {{#skills}}
+    <div class="skill-category">
+        <div class="skill-category-title">{{name}}</div>
+        <div class="skill-tags">
+            {{#keywords}}
+                {{name}}{{#comma}}, {{/comma}}
+            {{/keywords}}
+        </div>
+    </div>
+    {{/skills}}
+</div>
