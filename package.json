@@ -1,18 +1,20 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "JSON resume with no server-side code",
-  "main": "app/app.js",
-  "repository": "git@gitlab.com:ninemind/resume.git",
-  "author": "Christopher West <9ninemind@gmail.com>",
-  "license": "MIT",
+  "description": "Christopher West's Resume",
   "private": true,
+  "scripts": {
+    "start": "browser-sync start --server --files '*.html, css/*.css, js/*.js, templates/*.html, resume.json' --no-notify --no-ghost-mode",
+    "build": "mkdir -p dist && cp -r css js templates resume.json index.html dist/"
+  },
   "dependencies": {
     "bootstrap": "^3.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.0",
-    "requirejs": "^2.3.5",
-    "text": "requirejs/text",
-    "underscore": "^1.8.3"
+    "mustache": "^4.2.0",
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
   }
 }
