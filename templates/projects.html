@@ -1,0 +1,24 @@
+<div class="timeline">
+    {{#projects}}
+    <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="job-header">
+                <div class="job-title-info">
+                    <h4 class="job-title">{{name}}</h4>
+                </div>
+                <div class="job-date">
+                    {{startDate}} - {{#endDate}}{{endDate}}{{/endDate}}{{^endDate}}Present{{/endDate}}
+                </div>
+            </div>
+            {{#highlights}}
+            <ul class="job-highlights">
+                {{#.}}
+                <li>{{{.}}}</li>
+                {{/.}}
+            </ul>
+            {{/highlights}}
+        </div>
+    </div>
+    {{/projects}}
+</div>

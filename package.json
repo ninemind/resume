@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "Christopher West's Resume",
+  "description": "Web Resume",
   "private": true,
   "scripts": {
     "start": "browser-sync start --server --files '*.html, css/*.css, js/*.js, templates/*.html, resume.json' --no-notify --no-ghost-mode"

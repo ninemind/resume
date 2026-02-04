@@ -2,25 +2,16 @@
     {{> header}}
     {{#basics.summary}}
     <section id="summary">
-        <h3><i class="fa fa-user"></i> Professional Summary</h3>
+        <h3><i class="fa fa-user"></i> Objective</h3>
         <div id="summary-container">
             {{{basics.summary}}}
         </div>
     </section>
     {{/basics.summary}}
 
-    {{#skills.0}}
-    <section id="skills">
-        <h3><i class="fa fa-code"></i> Technical Skills</h3>
-        <div id="skills-container">
-            {{> skills}}
-        </div>
-    </section>
-    {{/skills.0}}
-
     {{#work.0}}
     <section id="work">
-        <h3><i class="fa fa-briefcase"></i> Professional Experience</h3>
+        <h3><i class="fa fa-briefcase"></i> Experience</h3>
         <div id="jobs-container">
             {{> jobs}}
         </div>
@@ -35,6 +26,24 @@
         </div>
     </section>
     {{/education.0}}
+
+    {{#skills.0}}
+    <section id="skills">
+        <h3><i class="fa fa-code"></i> Skills</h3>
+        <div id="skills-container">
+            {{> skills}}
+        </div>
+    </section>
+    {{/skills.0}}
+
+    {{#projects.0}}
+    <section id="projects">
+        <h3><i class="fa fa-lightbulb-o"></i> Projects</h3>
+        <div id="projects-container">
+            {{> projects}}
+        </div>
+    </section>
+    {{/projects.0}}
 
     <div class="page-break"></div>
 

@@ -43,6 +43,14 @@ $(document).ready(function() {
                 });
             }
 
+            // Format dates in projects
+            if (data.projects) {
+                data.projects.forEach(function(project) {
+                    project.startDate = formatDate(project.startDate);
+                    project.endDate = formatDate(project.endDate);
+                });
+            }
+
             // Add phoneHref for tel: link, but keep original phone for display
             if (data.basics.phone) {
                 data.basics.phoneHref = formatPhone(data.basics.phone);
@@ -76,14 +84,16 @@ $(document).ready(function() {
                 $.ajax({ url: 'templates/header.html', cache: false }),
                 $.ajax({ url: 'templates/summary.html', cache: false }),
                 $.ajax({ url: 'templates/skills.html', cache: false }),
+                $.ajax({ url: 'templates/projects.html', cache: false }),
                 $.ajax({ url: 'templates/jobs.html', cache: false }),
                 $.ajax({ url: 'templates/education.html', cache: false }),
                 $.ajax({ url: 'templates/references.html', cache: false })
-            ).done(function(layout, header, summary, skills, jobs, education, references) {
+            ).done(function(layout, header, summary, skills, projects, jobs, education, references) {
                 var partials = {
                     header: header[0],
                     summary: summary[0],
                     skills: skills[0],
+                    projects: projects[0],
                     jobs: jobs[0],
                     education: education[0],
                     references: references[0]
@@ -109,9 +119,11 @@ $(document).ready(function() {
                     const mainRefs = mainContent.querySelector('#references');
                     if (mainRefs) mainRefs.remove();
 
-                    // Remove everything except references from references content
+                    // Prepare references content only if references exist
                     const refs = referencesContent.querySelector('#references');
+                    let hasReferences = false;
                     if (refs) {
+                        hasReferences = true;
                         referencesContent.innerHTML = '';
                         referencesContent.appendChild(refs);
                     }
@@ -129,7 +141,7 @@ $(document).ready(function() {
                         const container = document.createElement('div');
                         container.style.width = '8.5in';
                         container.style.height = '11in';
-                        container.style.padding = '0.5in';
+                        container.style.padding = '1in';
                         container.style.background = 'white';
                         container.style.position = 'absolute';
                         container.style.left = '-9999px';
@@ -138,11 +150,15 @@ $(document).ready(function() {
                     };
 
                     const page1Container = createPageContainer();
-                    const page2Container = createPageContainer();
                     page1Container.appendChild(mainContent);
-                    page2Container.appendChild(referencesContent);
                     document.body.appendChild(page1Container);
-                    document.body.appendChild(page2Container);
+
+                    let page2Container = null;
+                    if (hasReferences) {
+                        page2Container = createPageContainer();
+                        page2Container.appendChild(referencesContent);
+                        document.body.appendChild(page2Container);
+                    }
 
                     // Add PDF-specific styles
                     const style = document.createElement('style');
@@ -154,52 +170,52 @@ $(document).ready(function() {
                         body {
                             margin: 0;
                             padding: 0;
-                            font-size: 8pt;
-                            line-height: 1.15;
+                            font-size: 12pt;
+                            line-height: 1.35;
                         }
                         .container {
-                            width: 7.5in;
+                            width: 6.5in;
                             margin: 0 auto;
                             padding: 0;
                         }
                         section {
-                            margin-bottom: 0.1in;
+                            margin-bottom: 0.16in;
                         }
                         h1 { 
-                            font-size: 11pt;
-                            margin-bottom: 0.06in;
+                            font-size: 16pt;
+                            margin-bottom: 0.12in;
                         }
                         h2 { 
-                            font-size: 9pt;
-                            margin-bottom: 0.05in;
+                            font-size: 12pt;
+                            margin-bottom: 0.1in;
                         }
                         h3 { 
-                            font-size: 8pt;
-                            margin-bottom: 0.05in;
+                            font-size: 11pt;
+                            margin-bottom: 0.1in;
                         }
                         .job-title, .education-title { 
-                            font-size: 8pt;
-                            margin-bottom: 0.02in;
+                            font-size: 11pt;
+                            margin-bottom: 0.05in;
                         }
                         .job-company, .education-institution { 
-                            font-size: 8pt;
-                            margin-bottom: 0.02in;
+                            font-size: 11pt;
+                            margin-bottom: 0.05in;
                         }
                         .job-dates, .education-dates { 
-                            font-size: 7pt;
-                            margin-bottom: 0.05in;
+                            font-size: 10pt;
+                            margin-bottom: 0.1in;
                         }
                         .skills-group-title { 
-                            font-size: 8pt;
-                            margin-bottom: 0.05in;
+                            font-size: 11pt;
+                            margin-bottom: 0.1in;
                         }
                         .skill-tags { 
-                            font-size: 7pt;
-                            margin-bottom: 0.02in;
+                            font-size: 10pt;
+                            margin-bottom: 0.05in;
                         }
                         .job-highlights li { 
-                            font-size: 7pt;
-                            margin-bottom: 0.02in;
+                            font-size: 10pt;
+                            margin-bottom: 0.05in;
                         }
                         .references-grid {
                             display: block !important;
@@ -242,7 +258,9 @@ $(document).ready(function() {
                         }
                     `;
                     page1Container.appendChild(style.cloneNode(true));
-                    page2Container.appendChild(style.cloneNode(true));
+                    if (page2Container) {
+                        page2Container.appendChild(style.cloneNode(true));
+                    }
 
                     // Generate PDF
                     const pdf = new jspdf.jsPDF({
@@ -261,6 +279,12 @@ $(document).ready(function() {
                         const imgData1 = canvas1.toDataURL('image/png');
                         pdf.addImage(imgData1, 'PNG', 0, 0, 8.5, 11);
 
+                        if (!page2Container) {
+                            pdf.save('Resume - Travis West.pdf');
+                            document.body.removeChild(page1Container);
+                            return;
+                        }
+
                         // Render second page
                         html2canvas(page2Container, {
                             scale: 2,
@@ -273,7 +297,7 @@ $(document).ready(function() {
                             pdf.addImage(imgData2, 'PNG', 0, 0, 8.5, 11);
 
                             // Save the PDF
-                            pdf.save('Resume - Christopher West.pdf');
+                            pdf.save('Resume - Travis West.pdf');
 
                             // Clean up
                             document.body.removeChild(page1Container);

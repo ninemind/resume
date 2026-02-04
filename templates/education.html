@@ -8,7 +8,7 @@
                     <div class="job-company">{{institution}}</div>
                 </div>
                 <div class="job-date">
-                    {{startDate}} - {{#endDate}}{{endDate}}{{/endDate}}{{^endDate}}Present{{/endDate}}
+                    {{#endDate}}Graduating {{endDate}}{{/endDate}}{{^endDate}}In Progress{{/endDate}}
                 </div>
             </div>
             {{#gpa}}
