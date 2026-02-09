@@ -85,15 +85,17 @@ $(document).ready(function() {
                 $.ajax({ url: 'templates/summary.html', cache: false }),
                 $.ajax({ url: 'templates/skills.html', cache: false }),
                 $.ajax({ url: 'templates/projects.html', cache: false }),
+                $.ajax({ url: 'templates/activities.html', cache: false }),
                 $.ajax({ url: 'templates/jobs.html', cache: false }),
                 $.ajax({ url: 'templates/education.html', cache: false }),
                 $.ajax({ url: 'templates/references.html', cache: false })
-            ).done(function(layout, header, summary, skills, projects, jobs, education, references) {
+            ).done(function(layout, header, summary, skills, projects, activities, jobs, education, references) {
                 var partials = {
                     header: header[0],
                     summary: summary[0],
                     skills: skills[0],
                     projects: projects[0],
+                    activities: activities[0],
                     jobs: jobs[0],
                     education: education[0],
                     references: references[0]
@@ -141,7 +143,7 @@ $(document).ready(function() {
                         const container = document.createElement('div');
                         container.style.width = '8.5in';
                         container.style.height = '11in';
-                        container.style.padding = '1in';
+                        container.style.padding = '0.75in';
                         container.style.background = 'white';
                         container.style.position = 'absolute';
                         container.style.left = '-9999px';
@@ -170,11 +172,15 @@ $(document).ready(function() {
                         body {
                             margin: 0;
                             padding: 0;
-                            font-size: 12pt;
-                            line-height: 1.35;
+                            font-size: 10.5pt;
+                            line-height: 1.32;
+                        }
+                        @page {
+                            size: letter;
+                            margin: 0.6in;
                         }
                         .container {
-                            width: 6.5in;
+                            width: 7in;
                             margin: 0 auto;
                             padding: 0;
                         }
@@ -182,19 +188,19 @@ $(document).ready(function() {
                             margin-bottom: 0.16in;
                         }
                         h1 { 
-                            font-size: 16pt;
+                            font-size: 28pt;
                             margin-bottom: 0.12in;
                         }
                         h2 { 
-                            font-size: 12pt;
+                            font-size: 15pt;
                             margin-bottom: 0.1in;
                         }
                         h3 { 
-                            font-size: 11pt;
+                            font-size: 14pt;
                             margin-bottom: 0.1in;
                         }
                         .job-title, .education-title { 
-                            font-size: 11pt;
+                            font-size: 12pt;
                             margin-bottom: 0.05in;
                         }
                         .job-company, .education-institution { 
@@ -210,11 +216,11 @@ $(document).ready(function() {
                             margin-bottom: 0.1in;
                         }
                         .skill-tags { 
-                            font-size: 10pt;
+                            font-size: 10.5pt;
                             margin-bottom: 0.05in;
                         }
                         .job-highlights li { 
-                            font-size: 10pt;
+                            font-size: 10.5pt;
                             margin-bottom: 0.05in;
                         }
                         .references-grid {

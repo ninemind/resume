@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Travis West",
-    "label": "High School Student",
+    "label": "",
     "picture": "",
     "email": "unkindwatermelon@gmail.com",
     "phone": "(720) 520-2226",
@@ -9,7 +9,7 @@
       "title": "",
       "url": ""
     },
-    "summary": "<p>Motivated 10th-grade student seeking a part-time or entry-level role to gain work experience, build responsibility, and contribute to a team.</p>",
+    "summary": "<p>Looking for a part‑time job to gain experience, grow responsibility, and contribute to the team. I’m reliable, learn quickly, and take pride in doing the job right.</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -21,27 +21,38 @@
   },
   "work": [
     {
-      "startDate": "2024-05-01",
+      "startDate": "2024-05-15",
       "endDate": "2025-08-15",
       "company": "Filth Foe",
       "website": "",
-      "position": "Interior Car Detailer",
+      "position": "Owner & Interior Car Detailer",
       "highlights": [
-        "Cleaned vehicle interiors to improve appearance and help customers feel confident driving their cars.",
-        "Worked consistently and efficiently to keep detailing jobs on schedule.",
-        "Communicated with customers to confirm needs and delivered results that built trust and repeat business."
+        "Started and ran a small detailing business and handled scheduling and customer communication.",
+        "Hired and trained a small team to help during busy weeks.",
+        "Seasonal work during summers 2024 and 2025.",
+        "Focused on doing the job right so customers were happy and came back."
       ]
     }
   ],
   "projects": [
     {
-      "name": "Applied Electronics: LED Build",
+      "name": "Custom LED Hexagon Light",
       "startDate": "2025-12-01",
       "endDate": "2026-01-15",
       "highlights": [
-        "Designed and built a working LED circuit using soldering.",
-        "Improved problem-solving and attention to detail through testing and refinement.",
-        "Completed multiple projects involving engineering and creative problem-solving."
+        "Built a modular LED hexagon light like Govee/Nanoleaf, controlled by a microcontroller.",
+        "Assembled 3D‑printed parts with brass inserts and screws for a sturdy frame.",
+        "Cut and soldered LED strips, then wired power and control to the microcontroller."
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": "Symphonic Orchestra",
+      "organization": "Westlake High School",
+      "date": "",
+      "highlights": [
+        "First‑chair violin."
       ]
     }
   ],
@@ -52,7 +63,7 @@
       "studyType": "High School",
       "area": "",
       "startDate": "2025-08-15",
-      "endDate": "2028-06-01",
+      "endDate": "2028-05-15",
       "gpa": ""
     }
   ],
@@ -62,15 +73,22 @@
   "interests": [],
   "skills": [
     {
-      "name": "",
+      "name": "Core Strengths",
       "level": "",
       "keywords": [
-        "Problem-solving",
+        "Problem‑solving",
         "Reliable",
         "Fast learner",
         "Teamwork",
         "Follows directions",
         "Positive attitude"
+      ]
+    },
+    {
+      "name": "Technical",
+      "level": "",
+      "keywords": [
+        "Soldering"
       ]
     }
   ],

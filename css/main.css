@@ -99,7 +99,7 @@
 :root {
     --primary: #2c3e50;
     --secondary: #34495e;
-    --accent: #00b3ff;
+    --accent: #ff6b6b;
     --text: #2c3e50;
     --text-light: #7f8c8d;
     --border: #ecf0f1;
@@ -110,6 +110,7 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     color: var(--text);
     line-height: 1.5;
+    font-size: 10.5pt;
     background: var(--background);
     margin: 0;
     padding: 0;
@@ -117,7 +118,7 @@ body {
 
 .container {
     max-width: 8.5in;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     background: var(--background);
     border-radius: 0;
     box-shadow: none;
@@ -134,15 +135,19 @@ body {
 
 /* Header Styles */
 .header-wrapper {
-    margin-bottom: 1.5rem;
-    border-bottom: 2px solid var(--border);
-    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .header-main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.header-right {
+    padding-top: 0.25rem;
 }
 
 .header-left {
@@ -208,7 +213,7 @@ body {
 
 /* Section Styles */
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     background: var(--background);
     border-radius: 0;
     box-shadow: none;
@@ -218,6 +223,11 @@ section {
 
 section:last-child {
     border-bottom: none;
+}
+
+#projects {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 section h3 {
@@ -270,15 +280,17 @@ section h3 i {
 }
 
 #skills .job-highlights {
-    columns: 3;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     column-gap: 0.75rem;
-    column-fill: balance;
+    row-gap: 0.3rem;
 }
 
 #skills .job-highlights li {
-    break-inside: avoid;
-    padding-left: 1.2rem;
-    margin-bottom: 0.3rem;
+    break-inside: auto;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    white-space: nowrap;
 }
 
 /* Work Experience */
@@ -357,7 +369,7 @@ section h3 i {
 }
 
 .reference-card {
-    font-size: 10pt;
+    font-size: 10.5pt;
     padding: 0.75rem;
     border: none;
     border-radius: 0;
