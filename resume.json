@@ -37,9 +37,9 @@
       "name": "Custom LED Hexagon Light",
       "date": "Winter 2025",
       "highlights": [
-        "Built a modular LED hexagon light like Govee/Nanoleaf, controlled by a microcontroller.",
-        "Assembled 3D‑printed parts with brass inserts and screws for a sturdy frame.",
-        "Cut and soldered LED strips, then wired power and control to the microcontroller."
+        "Built a custom LED hexagon light (similar to Govee/Nanoleaf) using 3D‑printed parts and a microcontroller.",
+        "Put together the parts with brass inserts and screws so it would hold up well.",
+        "Cut and soldered LED strips, then wired power and data to the microcontroller."
       ]
     }
   ],
@@ -58,7 +58,7 @@
       "institution": "Westlake High School, Saratoga Springs",
       "studyType": "High School",
       "area": "",
-      "date": "Graduating May 2028",
+      "date": "Graduating 2028",
       "gpa": ""
     }
   ],
