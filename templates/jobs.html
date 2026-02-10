@@ -10,9 +10,9 @@
                         <a href="{{website}}" target="_blank">{{company}}</a>
                     </div>
                 </div>
-                <div class="job-date">
-                    {{startDate}} - {{#endDate}}{{endDate}}{{/endDate}}{{^endDate}}Present{{/endDate}}
-                </div>
+                {{#date}}
+                <div class="job-date">{{date}}</div>
+                {{/date}}
             </div>
             {{#highlights}}
             <ul class="job-highlights">

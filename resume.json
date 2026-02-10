@@ -9,7 +9,7 @@
       "title": "",
       "url": ""
     },
-    "summary": "<p>Looking for a part‑time job to gain experience, grow responsibility, and contribute to the team. I’m reliable, learn quickly, and take pride in doing the job right.</p>",
+    "summary": "<p>Looking for a part‑time job to gain experience, grow responsibility, and contribute to a team. I’m reliable, learn quickly, and take pride in doing the job right.</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -21,15 +21,13 @@
   },
   "work": [
     {
-      "startDate": "2024-05-15",
-      "endDate": "2025-08-15",
+      "date": "Summers 2024 & 2025",
       "company": "Filth Foe",
       "website": "",
       "position": "Owner & Interior Car Detailer",
       "highlights": [
-        "Started and ran a small detailing business and handled scheduling and customer communication.",
+        "Started a small detailing business and handled scheduling and customer communication.",
         "Hired and trained a small team to help during busy weeks.",
-        "Seasonal work during summers 2024 and 2025.",
         "Focused on doing the job right so customers were happy and came back."
       ]
     }
@@ -37,8 +35,7 @@
   "projects": [
     {
       "name": "Custom LED Hexagon Light",
-      "startDate": "2025-12-01",
-      "endDate": "2026-01-15",
+      "date": "Winter 2025",
       "highlights": [
         "Built a modular LED hexagon light like Govee/Nanoleaf, controlled by a microcontroller.",
         "Assembled 3D‑printed parts with brass inserts and screws for a sturdy frame.",
@@ -46,13 +43,12 @@
       ]
     }
   ],
-  "activities": [
+  "achievements": [
     {
-      "title": "Symphonic Orchestra",
-      "organization": "Westlake High School",
-      "date": "",
+      "title": "First‑Chair (Lead) Violinist",
+      "organization": "Westlake High School Symphonic Orchestra",
+      "date": "Februrary 2026",
       "highlights": [
-        "First‑chair violin."
       ]
     }
   ],
@@ -62,8 +58,7 @@
       "institution": "Westlake High School, Saratoga Springs",
       "studyType": "High School",
       "area": "",
-      "startDate": "2025-08-15",
-      "endDate": "2028-05-15",
+      "date": "Graduating May 2028",
       "gpa": ""
     }
   ],

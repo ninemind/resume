@@ -29,27 +29,7 @@ $(document).ready(function() {
         dataType: 'json',
         cache: false,
         success: function(data) {
-            // Format dates in work experience
-            data.work.forEach(function(job) {
-                job.startDate = formatDate(job.startDate);
-                job.endDate = formatDate(job.endDate);
-            });
-
-            // Format dates in education
-            if (data.education) {
-                data.education.forEach(function(edu) {
-                    edu.startDate = formatDate(edu.startDate);
-                    edu.endDate = formatDate(edu.endDate);
-                });
-            }
-
-            // Format dates in projects
-            if (data.projects) {
-                data.projects.forEach(function(project) {
-                    project.startDate = formatDate(project.startDate);
-                    project.endDate = formatDate(project.endDate);
-                });
-            }
+            // Dates are displayed as plain text from JSON
 
             // Add phoneHref for tel: link, but keep original phone for display
             if (data.basics.phone) {
@@ -85,17 +65,17 @@ $(document).ready(function() {
                 $.ajax({ url: 'templates/summary.html', cache: false }),
                 $.ajax({ url: 'templates/skills.html', cache: false }),
                 $.ajax({ url: 'templates/projects.html', cache: false }),
-                $.ajax({ url: 'templates/activities.html', cache: false }),
+                $.ajax({ url: 'templates/achievements.html', cache: false }),
                 $.ajax({ url: 'templates/jobs.html', cache: false }),
                 $.ajax({ url: 'templates/education.html', cache: false }),
                 $.ajax({ url: 'templates/references.html', cache: false })
-            ).done(function(layout, header, summary, skills, projects, activities, jobs, education, references) {
+            ).done(function(layout, header, summary, skills, projects, achievements, jobs, education, references) {
                 var partials = {
                     header: header[0],
                     summary: summary[0],
                     skills: skills[0],
                     projects: projects[0],
-                    activities: activities[0],
+                    achievements: achievements[0],
                     jobs: jobs[0],
                     education: education[0],
                     references: references[0]
@@ -275,15 +255,37 @@ $(document).ready(function() {
                         format: 'letter'
                     });
 
+                    const renderContent = (contentEl) => {
+                        return new Promise(resolve => {
+                            requestAnimationFrame(() => {
+                                html2canvas(contentEl, {
+                                    scale: 2,
+                                    useCORS: true,
+                                    logging: false,
+                                    backgroundColor: '#ffffff'
+                                }).then(resolve);
+                            });
+                        });
+                    };
+
                     // Render first page
-                    html2canvas(page1Container, {
-                        scale: 2,
-                        useCORS: true,
-                        logging: false,
-                        backgroundColor: '#ffffff'
-                    }).then(canvas1 => {
+                    renderContent(mainContent).then(canvas1 => {
                         const imgData1 = canvas1.toDataURL('image/png');
-                        pdf.addImage(imgData1, 'PNG', 0, 0, 8.5, 11);
+                        const pageW = 8.5;
+                        const pageH = 11;
+                        const margin = 0.6;
+                        const maxW = pageW - (margin * 2);
+                        const maxH = pageH - (margin * 2);
+                        const imgRatio1 = canvas1.height / canvas1.width;
+                        let renderW1 = maxW;
+                        let renderH1 = maxW * imgRatio1;
+                        if (renderH1 > maxH) {
+                            renderH1 = maxH;
+                            renderW1 = maxH / imgRatio1;
+                        }
+                        const x1 = margin + (maxW - renderW1) / 2;
+                        const y1 = margin + (maxH - renderH1) / 2;
+                        pdf.addImage(imgData1, 'PNG', x1, y1, renderW1, renderH1);
 
                         if (!page2Container) {
                             pdf.save('Resume - Travis West.pdf');
@@ -292,15 +294,19 @@ $(document).ready(function() {
                         }
 
                         // Render second page
-                        html2canvas(page2Container, {
-                            scale: 2,
-                            useCORS: true,
-                            logging: false,
-                            backgroundColor: '#ffffff'
-                        }).then(canvas2 => {
+                        renderContent(referencesContent).then(canvas2 => {
                             const imgData2 = canvas2.toDataURL('image/png');
+                            const imgRatio2 = canvas2.height / canvas2.width;
+                            let renderW2 = maxW;
+                            let renderH2 = maxW * imgRatio2;
+                            if (renderH2 > maxH) {
+                                renderH2 = maxH;
+                                renderW2 = maxH / imgRatio2;
+                            }
+                            const x2 = margin + (maxW - renderW2) / 2;
+                            const y2 = margin + (maxH - renderH2) / 2;
                             pdf.addPage();
-                            pdf.addImage(imgData2, 'PNG', 0, 0, 8.5, 11);
+                            pdf.addImage(imgData2, 'PNG', x2, y2, renderW2, renderH2);
 
                             // Save the PDF
                             pdf.save('Resume - Travis West.pdf');
