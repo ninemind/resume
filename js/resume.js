@@ -123,7 +123,7 @@ $(document).ready(function() {
                         const container = document.createElement('div');
                         container.style.width = '8.5in';
                         container.style.height = '11in';
-                        container.style.padding = '0.75in';
+                        container.style.padding = '0.6in';
                         container.style.background = 'white';
                         container.style.position = 'absolute';
                         container.style.left = '-9999px';
@@ -147,61 +147,58 @@ $(document).ready(function() {
                     style.textContent = `
                         @page {
                             size: letter;
-                            margin: 0;
+                            margin: 0.6in;
                         }
                         body {
                             margin: 0;
                             padding: 0;
                             font-size: 10.5pt;
-                            line-height: 1.32;
-                        }
-                        @page {
-                            size: letter;
-                            margin: 0.6in;
+                            line-height: 1.22;
                         }
                         .container {
-                            width: 7in;
-                            margin: 0 auto;
+                            width: auto;
+                            max-width: none;
+                            margin: 0;
                             padding: 0;
                         }
                         section {
-                            margin-bottom: 0.16in;
+                            margin-bottom: 0.1in;
                         }
                         h1 { 
                             font-size: 28pt;
-                            margin-bottom: 0.12in;
+                            margin-bottom: 0.08in;
                         }
                         h2 { 
                             font-size: 15pt;
-                            margin-bottom: 0.1in;
+                            margin-bottom: 0.06in;
                         }
                         h3 { 
                             font-size: 14pt;
-                            margin-bottom: 0.1in;
+                            margin-bottom: 0.06in;
                         }
                         .job-title, .education-title { 
                             font-size: 12pt;
-                            margin-bottom: 0.05in;
+                            margin-bottom: 0.03in;
                         }
                         .job-company, .education-institution { 
                             font-size: 11pt;
-                            margin-bottom: 0.05in;
+                            margin-bottom: 0.03in;
                         }
                         .job-dates, .education-dates { 
                             font-size: 10pt;
-                            margin-bottom: 0.1in;
+                            margin-bottom: 0.05in;
                         }
                         .skills-group-title { 
                             font-size: 11pt;
-                            margin-bottom: 0.1in;
+                            margin-bottom: 0.05in;
                         }
                         .skill-tags { 
                             font-size: 10.5pt;
-                            margin-bottom: 0.05in;
+                            margin-bottom: 0.03in;
                         }
                         .job-highlights li { 
                             font-size: 10.5pt;
-                            margin-bottom: 0.05in;
+                            margin-bottom: 0.02in;
                         }
                         .references-grid {
                             display: block !important;
@@ -228,16 +225,16 @@ $(document).ready(function() {
                             padding: 0 !important;
                         }
                         .job-highlights, .education-details {
-                            margin-bottom: 0.05in;
+                            margin-bottom: 0.03in;
                         }
                         .skills-group {
-                            margin-bottom: 0.06in;
+                            margin-bottom: 0.04in;
                         }
                         .contact-info {
-                            margin-bottom: 0.1in;
+                            margin-bottom: 0.06in;
                         }
                         .job, .education {
-                            margin-bottom: 0.1in;
+                            margin-bottom: 0.06in;
                         }
                         .job:last-child, .education:last-child {
                             margin-bottom: 0;
@@ -273,9 +270,10 @@ $(document).ready(function() {
                         const imgData1 = canvas1.toDataURL('image/png');
                         const pageW = 8.5;
                         const pageH = 11;
-                        const margin = 0.6;
-                        const maxW = pageW - (margin * 2);
-                        const maxH = pageH - (margin * 2);
+                        const marginX = 0.2;
+                        const marginY = 0.6;
+                        const maxW = pageW - (marginX * 2);
+                        const maxH = pageH - (marginY * 2);
                         const imgRatio1 = canvas1.height / canvas1.width;
                         let renderW1 = maxW;
                         let renderH1 = maxW * imgRatio1;
@@ -283,8 +281,8 @@ $(document).ready(function() {
                             renderH1 = maxH;
                             renderW1 = maxH / imgRatio1;
                         }
-                        const x1 = margin + (maxW - renderW1) / 2;
-                        const y1 = margin + (maxH - renderH1) / 2;
+                        const x1 = marginX + (maxW - renderW1) / 2;
+                        const y1 = marginY + (maxH - renderH1) / 2;
                         pdf.addImage(imgData1, 'PNG', x1, y1, renderW1, renderH1);
 
                         if (!page2Container) {
@@ -303,8 +301,8 @@ $(document).ready(function() {
                                 renderH2 = maxH;
                                 renderW2 = maxH / imgRatio2;
                             }
-                            const x2 = margin + (maxW - renderW2) / 2;
-                            const y2 = margin + (maxH - renderH2) / 2;
+                            const x2 = marginX + (maxW - renderW2) / 2;
+                            const y2 = marginY + (maxH - renderH2) / 2;
                             pdf.addPage();
                             pdf.addImage(imgData2, 'PNG', x2, y2, renderW2, renderH2);
 

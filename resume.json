@@ -35,11 +35,11 @@
   "projects": [
     {
       "name": "Custom LED Hexagon Light",
-      "date": "Winter 2025",
+      "date": "December 2025",
       "highlights": [
-        "Built a custom LED hexagon light (similar to Govee/Nanoleaf) using 3D‑printed parts and a microcontroller.",
-        "Put together the parts with brass inserts and screws so it would hold up well.",
-        "Cut and soldered LED strips, then wired power and data to the microcontroller."
+        "Built it to look and work like modular wall lights from Govee and Nanoleaf.",
+        "Put together 3D printed parts using brass inserts and screws so it would hold up well.",
+        "Cut and soldered LED strips, then wired power and data to a microcontroller."
       ]
     }
   ],
@@ -47,8 +47,17 @@
     {
       "title": "First‑Chair (Lead) Violinist",
       "organization": "Westlake High School Symphonic Orchestra",
-      "date": "Februrary 2026",
+      "date": "February 2026",
       "highlights": [
+      ]
+    },
+    {
+      "title": "CTE Skill Certificates",
+      "organization": "Utah State Board of Education",
+      "date": "May 2025",
+      "highlights": [
+        "Foods & Nutrition",
+        "Web Development I"
       ]
     }
   ],
